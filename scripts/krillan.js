@@ -1,4 +1,4 @@
-const krillan = extend(Planet, "templura", Planets.sun, 10, 0.5, {
+const krillan = extend(Planet, "templura", Planets.sun, 5, 0.5, {
   generator: new SerpuloPlanetGenerator(),
   bloom: true,
   radius: 1,
