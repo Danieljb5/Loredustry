@@ -1,4 +1,4 @@
-// From the piexlcraft mod with excess core cut out
+// From the piexlcraft mod with excess code cut out
 
 /*
 const templura = extend(Planet, "templura", Planets.sun, 1, 0.5, {
