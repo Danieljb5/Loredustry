@@ -1,5 +1,6 @@
 // From the piexlcraft mod with excess core cut out
 
+/*
 const templura = extend(Planet, "templura", Planets.sun, 1, 0.5, {
     generator: new SerpuloPlanetGenerator(),
     bloom: true,
@@ -19,3 +20,4 @@ const rustedValley = extend(SectorPreset, "rusted-valley", templura, 1, {
     difficulty: 3,
     alwaysUnlocked: true
 });
+*/
