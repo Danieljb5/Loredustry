@@ -1,4 +1,4 @@
-const templura = extend(Planet, "templura", Planets.sun, 1, 0.5, {
+const krillan = extend(Planet, "templura", Planets.sun, 1, 0.5, {
   generator: new SerpuloPlanetGenerator(),
   bloom: true,
   radius: 1,
@@ -7,9 +7,9 @@ const templura = extend(Planet, "templura", Planets.sun, 1, 0.5, {
   atmosphereColor: Color.valueOf("#ab7444"),
   atmosphereRadIn: 0.02,
   atmosphereRadOut: 0.3,
-  localizedName: "Templura"
+  localizedName: "Krillan"
 });
-templura.meshLoader = () => extend(HexMesh, templura, 2, {});
+krillan.meshLoader = () => extend(HexMesh, krillan, 2, {});
 
 const forgottenForest = extend(SectorPreset, "forgotten-forest", templura, 1, {
   captureWave: 30,
