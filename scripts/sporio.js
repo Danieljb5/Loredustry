@@ -1,4 +1,4 @@
-const sporio = extend(Planet, "templura", Planets.krillan, 1.5, 0.5, {
+const sporio = extend(Planet, "sporio", Planets.krillan, 1.5, 0.1, {
   generator: new SerpuloPlanetGenerator(),
   bloom: true,
   radius: 0.1,
