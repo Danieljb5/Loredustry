@@ -1,9 +1,8 @@
-
 const krillan = extend(Planet, "krillan", Planets.sun, 1, 0.5, {
   generator: new SerpuloPlanetGenerator(),
   bloom: true,
   radius: 1,
-  accesible: false,
+  accesible: true,
   hasAtmosphere: true,
   atmosphereColor: Color.valueOf("#ab7444"),
   atmosphereRadIn: 0.02,
