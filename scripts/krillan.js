@@ -6,7 +6,7 @@ const krillan = extend(Planet, "krillan", Planets.sun, 1, 0.5, {
   hasAtmosphere: true,
   atmosphereColor: Color.valueOf("#ab7444"),
   atmosphereRadIn: 0.02,
-  atmosphereRadOut: 0.03,
+  atmosphereRadOut: 0.3,
   localizedName: "Krillan"
 });
 krillan.meshLoader = () => extend(HexMesh, krillan,2, {});
