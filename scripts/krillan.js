@@ -15,5 +15,5 @@ const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
   captureWave: 30,
   localizedName: "Forgotten Forest",
   difficulty: 2,
-  alwaysUnlocked: false
+  alwaysUnlocked: true
 });
