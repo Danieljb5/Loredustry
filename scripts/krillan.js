@@ -12,4 +12,9 @@ const krillan = extend(Planet, "krillan", Planets.sun, 1, 0.5, {
 });
 krillan.meshLoader = () => extend(HexMesh, krillan,2, {});
 
-const forgottenForest = extend(SectorPreset, "forgotten-forest"
+const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
+  captureWave: 30,
+  localizedName: "Forgotten Forest",
+  difficulty: 2,
+  alwaysUnlocked: false
+});
