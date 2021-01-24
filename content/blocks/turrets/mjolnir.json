@@ -18,7 +18,7 @@
        
        "shootSound": "lasershoot",
        
-    "powerUse": 500,
+    "powerUse": 9,
         "hasPower": true,
         "shootType" : {
 		          "type" : "BasicBulletType",
