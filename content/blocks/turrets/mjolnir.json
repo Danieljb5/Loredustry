@@ -23,13 +23,13 @@
         "shootType" : {
 		          "type" : "BasicBulletType",
 		          "speed": 6.0,
-		          "lifetime" : 100,
-		          "damage": 300,
+		          "lifetime" : 50,
+		          "damage": 150,
 		          "height" : 25,
 		          "width" : 10,
 		          "hitEffect": "hitLaser",
 		          "despawnEffect" : "hitLaser",
-		          "pierce": true,
+		         
 	          	"frontColor": "bbdefb",
 		          "backColor": "90caf9"
            },
