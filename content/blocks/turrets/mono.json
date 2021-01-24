@@ -52,7 +52,7 @@
               "damage" : 30,
               "height" : 12,
               "width" : 7,
-              "speed" : 6,
+              "speed" : 5,
               "lifetime" : 30,
               "ammoMultiplier" : 1,
               "smokeEffect" : "shootSmallSmoke"
