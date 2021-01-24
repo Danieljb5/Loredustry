@@ -58,7 +58,7 @@
        "pyratite": {
          "type" : "BasicBulletType",
          "Status" : "burning"
-         "damage" : 2,
+         "damage": 2,
          "splashDamageRadius": 4,
          "splashDamage": 2,
          "height" : 12,
