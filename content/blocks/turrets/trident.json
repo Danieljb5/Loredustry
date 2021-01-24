@@ -71,7 +71,7 @@
          "smokeEffect" : "shootSmallSmoke"
        }
      },
-
+  }
  "requirements": [
         { "item": "copper", "amount": 50},
         { "item": "graphite", "amount": 50},
