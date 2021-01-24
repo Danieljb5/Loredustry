@@ -57,9 +57,9 @@
               "ammoMultiplier" : 1,
               "smokeEffect" : "shootSmallSmoke"
          },
-         "phase-fabric": {
+         "plastanium": {
               "type" : "BasicBulletType",
-              "status" : "shock",
+              "status" : "burning",
               "damage" : 50,
               "height" : 12,
               "width" : 7,
