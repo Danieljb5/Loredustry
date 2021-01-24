@@ -1,0 +1,77 @@
+{
+  "type" : "ItemTurret",
+  "size" : 2,
+  "health" : 600,
+
+
+  "maxAmmo" : 30,
+  "ammoPerShot" : 1,
+  "reloadTime" : 1,
+
+
+  "range" : 15,
+
+
+  "targetAir" : false,
+  "targetGround" : true,
+
+  "rotateSpeed" : 2,
+  "recoilAmount" : 1,
+  "restitution" : 0.5,
+
+  "shootSound" : "fire",
+
+  "lifetime" : 4,
+  "innacuracy" : 5,
+  "rotateSpeed" : 8,
+
+  "ammotypes": {
+      "coal":{
+         "type" : "BasicBulletType",
+         "status" : "burning",
+         "damage" : 20,
+         "height" : 12,
+         "width" : 7,
+         "speed" : 7.5,
+         "lifetime" : 45,
+         "pierce" : true,
+         "ammoMultiplier" : 3,
+         "reloadMultiplier" 1,
+         "smokeEffect" : "shootSmallSmoke"
+       },
+       "Graphite": {
+         "type" : "BasicBulletType",
+         "status" : "burning",
+         "damage" : 25,
+         "height" : 12,
+         "width" : 7,
+         "speed" : 8,
+         "lifetime" : 50,
+         "pierce" : true,
+         "ammoMultiplier" : 3,
+         "reloadMultiplier" : 1,
+         "smokeEffect" : "shootSmallSmoke"
+       },
+       "Pyratite": {
+         "type" : "BasicBulletType",
+         "Status" : "burning"
+         "damage" : 30,
+         "height" : 12,
+         "width" : 7,
+         "speed" : 6,
+         "lifetime" : 40,
+         "pierce" : true,
+         "ammoMultiplier" : 3,
+         "reloadMultiplier" 1,
+         "smokeEffect" : "shootSmallSmoke"
+       }
+     },
+
+ "requirements": [
+        { "item": "copper", "amount": 50},
+        { "item": "graphite", "amount": 50},
+        { "item": "lead", "amount": 50}
+     ],
+     "category": "turret",
+     "research" "scorch"
+}
