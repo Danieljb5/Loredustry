@@ -52,7 +52,7 @@
   "requirements": [
       { "item": "copper", "amount": 150},
       { "item": "graphite", "amount": 80},
-      { "item": "lead", "amount": 60}
+      { "item": "lead", "amount": 60},
       { "item": "titanium", "amount": 220}
     ],
     "category": "turret",
