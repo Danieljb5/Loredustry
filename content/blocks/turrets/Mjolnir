@@ -1,0 +1,45 @@
+{ 
+       "type" : "PowerTurret",
+       "size" : 3,
+       "health" : 200,
+       "reloadTime" : 5,
+       "range" : 300,
+       "innacuracy" : 0,
+       "shots" : 2,
+       
+       "targetAir": false,
+       "targetGround": true,
+       "shootcone": 3,
+       "spread": 4,
+       
+       "recoilAmount": 2,
+       "restitution": 0.05,
+       "rotateSpeed": 10,
+       
+       "shootSound": "lasershoot",
+       
+    "powerUse": 500,
+        "hasPower": true,
+        "shootType" : {
+		          "type" : "BasicBulletType",
+		          "speed": 6.0,
+		          "lifetime" : 100,
+		          "damage": 300,
+		          "height" : 25,
+		          "width" : 10,
+		          "hitEffect": "hitLaser",
+		          "despawnEffect" : "hitLaser",
+		          "pierce": true,
+	          	"frontColor": "bbdefb",
+		          "backColor": "90caf9"
+           },
+
+	"requirements": [
+		{ "item": "copper", "amount": 100},
+		{ "item": "lead", "amount": 60},
+		{ "item": "titanium", "amount": 50},
+		{ "item": "silicon", "amount": 50}
+	],
+	"category": "turret",
+	"research": "lancer"
+}
