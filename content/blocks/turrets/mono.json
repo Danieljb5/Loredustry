@@ -3,7 +3,7 @@
      "size": 1,
      "health": 100,
      "reloadTime": 25,
-     "range": 12,
+     "range": 100,
      "maxAmmo": 10,
      "innaccuracy": 10,
      "shots" : 1,
@@ -20,7 +20,7 @@
      "rotateSpeed" : 3,
 
 
-     "shootSound" : "shotgun",
+     "shootSound" : "artillery",
 
      "xRand" : 1,
      "ammoPerShot" : 2,
