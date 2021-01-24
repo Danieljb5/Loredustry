@@ -58,8 +58,8 @@
               "smokeEffect" : "shootSmallSmoke"
          },
          "phase-fabric": {
-              "type" : "BasicBulletType
-              "hitEffect" : "lightningShoot"
+              "type" : "BasicBulletType,
+              "hitEffect" : "lightningShoot",
               "damage" : 50,
               "height" : 12,
               "width" : 7,
