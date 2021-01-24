@@ -46,9 +46,18 @@
               "lifetime" : 30,
               "ammoMultiplier" : 1,
               "smokeEffect" : "shootSmallSmoke"
+         },
+         "titanium": {
+              "type" : "BasicBulletType",
+              "damage" : 30,
+              "height" : 12,
+              "width" : 7,
+              "speed" : 6,
+              "lifetime" : 30,
+              "ammoMultiplier" : 1,
+              "smokeEffect" : "shootSmallSmoke"
          }
-
- },
+   },
 
 "requirements": [
      { "item" : "copper", "amount": 15 }
