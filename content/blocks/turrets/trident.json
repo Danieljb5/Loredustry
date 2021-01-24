@@ -30,6 +30,8 @@
          "type" : "BasicBulletType",
          "status" : "burning",
          "damage" : 1,
+         "splashDamageRadius": 4,
+         "splashDamage": 2,
          "height" : 12,
          "width" : 7,
          "speed" : 7.5,
@@ -41,8 +43,9 @@
        },
        "graphite": {
          "type" : "BasicBulletType",
-         "status" : "burning",
          "damage" : 1,
+         "splashDamageRadius": 6,
+         "splashDamage": 3,
          "height" : 12,
          "width" : 7,
          "speed" : 8,
@@ -56,6 +59,8 @@
          "type" : "BasicBulletType",
          "Status" : "burning"
          "damage" : 2,
+         "splashDamageRadius": 4,
+         "splashDamage": 2,
          "height" : 12,
          "width" : 7,
          "speed" : 6,
