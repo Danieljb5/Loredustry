@@ -29,39 +29,39 @@
       "coal":{
          "type" : "BasicBulletType",
          "status" : "burning",
-         "damage" : 20,
+         "damage" : 1,
          "height" : 12,
          "width" : 7,
          "speed" : 7.5,
          "lifetime" : 30,
          "pierce" : true,
-         "ammoMultiplier" : 3,
+         "ammoMultiplier" : 5,
          "reloadMultiplier" : 3,
          "smokeEffect" : "shootSmallSmoke"
        },
        "graphite": {
          "type" : "BasicBulletType",
          "status" : "burning",
-         "damage" : 25,
+         "damage" : 1,
          "height" : 12,
          "width" : 7,
          "speed" : 8,
          "lifetime" : 30,
          "pierce" : true,
-         "ammoMultiplier" : 3,
+         "ammoMultiplier" : 5,
          "reloadMultiplier" : 3,
          "smokeEffect" : "shootSmallSmoke"
        },
        "pyratite": {
          "type" : "BasicBulletType",
          "Status" : "burning"
-         "damage" : 30,
+         "damage" : 2,
          "height" : 12,
          "width" : 7,
          "speed" : 6,
          "lifetime" : 30,
          "pierce" : true,
-         "ammoMultiplier" : 3,
+         "ammoMultiplier" : 5,
          "reloadMultiplier" : 3,
          "smokeEffect" : "shootSmallSmoke"
        }
