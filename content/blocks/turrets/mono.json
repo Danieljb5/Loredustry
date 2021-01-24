@@ -52,12 +52,24 @@
               "damage" : 30,
               "height" : 12,
               "width" : 7,
-              "speed" : 5,
+              "speed" : 6,
               "lifetime" : 30,
               "ammoMultiplier" : 1,
               "smokeEffect" : "shootSmallSmoke"
+         },
+         "phase-fabric": {
+              "type" : "BasicBulletType
+              "status" : "shock"
+              "damage" : 50,
+              "height" : 12,
+              "width" : 7,
+              "speed" : 6,
+              "lifetime" : 30,
+              "ammoMultiplier": 1,
+              "smokeEffect" : "shootSmallSmoke"
          }
-   },
+     
+     },
 
 "requirements": [
      { "item" : "copper", "amount": 15 }
