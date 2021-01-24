@@ -36,7 +36,7 @@
          "lifetime" : 45,
          "pierce" : true,
          "ammoMultiplier" : 3,
-         "reloadMultiplier" 1,
+         "reloadMultiplier" : 1,
          "smokeEffect" : "shootSmallSmoke"
        },
        "Graphite": {
