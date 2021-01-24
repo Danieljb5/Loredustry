@@ -32,8 +32,9 @@
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke"
-    },
-    "pyratite":{
+    }
+  },
+  "pyratite":{
       "type": "BasicBulletType",
       "status": "burning",
       "shootEffect": "shootPyraFlame",
@@ -47,14 +48,14 @@
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke"
-    },
-    
-    "requirements": [
-        { "item": "copper", "amount": 150},
-        { "item": "graphite", "amount": 80},
-        { "item": "lead", "amount": 60}
-        { "item": "titanium", "amount": 220}
-     ],
-     "category": "turret",
-     "research" : "scorch"
+    }
+  },
+  "requirements": [
+      { "item": "copper", "amount": 150},
+      { "item": "graphite", "amount": 80},
+      { "item": "lead", "amount": 60}
+      { "item": "titanium", "amount": 220}
+    ],
+    "category": "turret",
+    "research" : "scorch"
 }
