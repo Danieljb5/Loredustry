@@ -5,7 +5,7 @@
        "reloadTime" : 5,
        "range" : 300,
        "innacuracy" : 0,
-       "shots" : 2,
+       "shots" : 3,
        
        "targetAir": false,
        "targetGround": true,
@@ -24,7 +24,7 @@
 		          "type" : "BasicBulletType",
 		          "speed": 6.0,
 		          "lifetime" : 50,
-		          "damage": 150,
+		          "damage": 85,
 		          "height" : 25,
 		          "width" : 10,
 		          "hitEffect": "hitLaser",
