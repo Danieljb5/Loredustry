@@ -72,7 +72,7 @@
        }
      },
   }
- "requirements": [
+"requirements": [
         { "item": "copper", "amount": 50},
         { "item": "graphite", "amount": 50},
         { "item": "lead", "amount": 50}
