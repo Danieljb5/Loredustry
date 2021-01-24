@@ -57,7 +57,7 @@
               "ammoMultiplier" : 1,
               "smokeEffect" : "shootSmallSmoke"
          },
-         "phase-fabric": {
+         "surge-alloy": {
               "type" : "BasicBulletType,
               "hitEffect" : "lightningShoot",
               "damage" : 50,
