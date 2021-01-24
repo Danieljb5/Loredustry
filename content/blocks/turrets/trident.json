@@ -62,7 +62,7 @@
          "lifetime" : 40,
          "pierce" : true,
          "ammoMultiplier" : 3,
-         "reloadMultiplier" 1,
+         "reloadMultiplier" : 1,
          "smokeEffect" : "shootSmallSmoke"
        }
      },
@@ -73,5 +73,5 @@
         { "item": "lead", "amount": 50}
      ],
      "category": "turret",
-     "research" "scorch"
+     "research" : "scorch"
 }
