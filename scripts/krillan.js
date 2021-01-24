@@ -9,7 +9,7 @@ const krillan = extend(Planet, "krillan", Planets.sun, 3.5, 0.5, {
   atmosphereRadOut: 0.3,
   localizedName: "Krillan"
 });
-krillan.meshLoader = () => extend(HexMesh, krillan, 10, {});
+krillan.meshLoader = () => extend(HexMesh, krillan, 5, {});
 
 const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
   captureWave: 30,
