@@ -1,0 +1,50 @@
+{
+  "type" : "ItemTurret",
+  "size" : 3,
+  "health" : 950,
+  
+  "maxAmmo" : 35,
+  "ammoPerShot" : 1,
+  "reloadTime" : 5,
+  
+  "range" : 215,
+  "targetAir" : true,
+  "targetGround" : true,
+  "rotateSpeed" : 2,
+  "recoilAmount" : 0,
+  "restitution" : 1,
+  "shootSound" : "flame",
+  "lifetime" : 6,
+  "innacuracy" : 1,
+  
+  "ammoTypes" : {
+    "coal":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 3,
+      "height": 12,
+      "width": 7,
+      "speed": 15,
+      "lifetime": 25,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke"
+    },
+    "pyratite":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 5,
+      "height": 12,
+      "width": 7,
+      "speed": 15,
+      "lifetime": 25,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke"
+    },
