@@ -6,10 +6,10 @@
 
   "maxAmmo" : 30,
   "ammoPerShot" : 1,
-  "reloadTime" : 1,
+  "reloadTime" : 3,
 
 
-  "range" : 15,
+  "range" : 75,
 
 
   "targetAir" : false,
@@ -17,7 +17,7 @@
 
   "rotateSpeed" : 2,
   "recoilAmount" : 1,
-  "restitution" : 0.5,
+  "restitution" : 1,
 
   "shootSound" : "fire",
 
@@ -36,7 +36,7 @@
          "lifetime" : 45,
          "pierce" : true,
          "ammoMultiplier" : 3,
-         "reloadMultiplier" : 1,
+         "reloadMultiplier" : 3,
          "smokeEffect" : "shootSmallSmoke"
        },
        "graphite": {
@@ -49,7 +49,7 @@
          "lifetime" : 50,
          "pierce" : true,
          "ammoMultiplier" : 3,
-         "reloadMultiplier" : 1,
+         "reloadMultiplier" : 3,
          "smokeEffect" : "shootSmallSmoke"
        },
        "pyratite": {
@@ -62,7 +62,7 @@
          "lifetime" : 40,
          "pierce" : true,
          "ammoMultiplier" : 3,
-         "reloadMultiplier" : 1,
+         "reloadMultiplier" : 3,
          "smokeEffect" : "shootSmallSmoke"
        }
      },
