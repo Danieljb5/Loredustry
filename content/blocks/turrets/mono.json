@@ -59,7 +59,7 @@
          },
          "phase-fabric": {
               "type" : "BasicBulletType
-              "status" : "shock"
+              "hitEffect" : "lightningShoot"
               "damage" : 50,
               "height" : 12,
               "width" : 7,
