@@ -33,7 +33,7 @@
               "height" : 12,
               "width" : 7,
               "speed" : 5.5,
-              "lifetime" : 60,
+              "lifetime" : 30,
               "ammoMultiplier" : 1,
               "smokeEffect": "shootSmallSmoke"
          },
@@ -43,7 +43,7 @@
               "height" : 12,
               "width" : 7,
               "speed" : 6,
-              "lifetime" : 50,
+              "lifetime" : 30,
               "ammoMultiplier" : 1,
               "smokeEffect" : "shootSmallSmoke"
          }
