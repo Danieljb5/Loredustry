@@ -25,7 +25,7 @@
   "innacuracy" : 5,
   "rotateSpeed" : 8,
 
-  "ammotypes": {
+  "ammoTypes": {
       "coal":{
          "type" : "BasicBulletType",
          "status" : "burning",
@@ -39,7 +39,7 @@
          "reloadMultiplier" : 1,
          "smokeEffect" : "shootSmallSmoke"
        },
-       "Graphite": {
+       "graphite": {
          "type" : "BasicBulletType",
          "status" : "burning",
          "damage" : 25,
@@ -52,7 +52,7 @@
          "reloadMultiplier" : 1,
          "smokeEffect" : "shootSmallSmoke"
        },
-       "Pyratite": {
+       "pyratite": {
          "type" : "BasicBulletType",
          "Status" : "burning"
          "damage" : 30,
