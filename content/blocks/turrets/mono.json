@@ -1,0 +1,64 @@
+{
+     "type": "ItemTurret",
+     "size": 1,
+     "health": 100,
+     "reloadTime": 25,
+     "range": 12,
+     "maxAmmo": 10,
+     "innaccuracy": 10,
+     "shots" : 1,
+     
+
+     "targetAir" : false,
+     "targetGround" : true,
+     "shootCone" : 0.1,
+     "spread" : 1,
+
+
+     "recoil" : 2,
+     "restitution" : 0.3,
+     "rotateSpeed" : 3,
+
+
+     "shootSound" : "shotgun",
+
+     "xRand" : 1,
+     "ammoPerShot" : 2,
+
+
+     "ammoTypes": {
+         "copper": {
+              "type" : "basicBulletType",
+              "damage" : 9,
+              "height" : 12,
+              "width" : 7,
+              "speed" : 5.5,
+              "lifetime" : 60,
+              "ammoMultiplier" : 1,
+              "smokeEffect": "shootSmallSmoke"
+         },
+         "scrap": {
+              "type" : "basicBulletType",
+              "damage" : 10,
+              "height" : 12,
+              "width" : 7,
+              "speed" : 6,
+              "lifetime" : 50,
+              "ammoMultiplier" : 1,
+              "smokeEffect" : "shootSmallSmoke"
+         }
+
+ },
+
+"requirements": [
+     { "item" : "copper", "amount": 15 }
+
+],
+"category" : "turret",
+"research" : "duo"
+
+}
+
+ 
+
+              
