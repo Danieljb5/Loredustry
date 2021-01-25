@@ -28,7 +28,7 @@
 		/*
 		"iron": {
 			"type" : "BasicBulletType",
-			"damage": 5,
+			"damage": 50,
 			"speed": 10.0,
 			"lifetime": 30,
 			"height": 30,
@@ -36,7 +36,7 @@
 			"ammoMultiplier": 1,
       			"pierce": true,
 			"collidesTiles" : true,
-			"lightning" : 36,
+			"lightning" : 42,
 			"lightningLength" : 45,
 			"pierceEffect" : "hitLaser",
 			"updateEffect" : "artilleryTrail",
@@ -48,7 +48,7 @@
 		*/
 		"surge-alloy": { 
 			"type" : "BasicBulletType",
-			"damage": 10,
+			"damage": 100,
 			"height": 30,
 			"width" : 10,			
 			"speed": 35,
@@ -56,7 +56,7 @@
 			"ammoMultiplier": 1,
 			"pierce": true,	
       			"collidesTiles" : true,
-			"lightning" : 42,
+			"lightning" : 86,
 			"lightningLength" : 85,
 			"pierceEffect" : "hitLaser",
 			"updateEffect" : "artilleryTrail",
