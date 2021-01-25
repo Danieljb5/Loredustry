@@ -16,9 +16,8 @@
         "power": 3,
         "items": {
            "items": [
-               {"item": "surge-alloy", "amount": 15},
+               {"item": "phase-fabric", "amount": 15},
                {"item": "plastinium", "amount": 10},
-               {"item": "titanium", "amount": 15}
             ]
           }
     },
