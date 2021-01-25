@@ -1,4 +1,5 @@
-//krillan
+Events.on(ClientLoadEvent, () => {
+  //krillan
 const krillan = extend(Planet, "krillan", Planets.sun, 3.5, 0.5, {
   generator: new SerpuloPlanetGenerator(),
   bloom: true,
@@ -61,3 +62,4 @@ const moltenRiver = extend(SectorPreset, "molten-river", embris, 1, {
   difficulty: 1,
   alwaysUnlocked: true
 });
+}
