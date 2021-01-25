@@ -20,7 +20,7 @@ const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
 });
 
 //sporio
-const sporio = extend(Planet, "sporio", Planets.serpulo, 2, 0.1, {
+const sporio = extend(Planet, "sporio", Planets.krillan, 2, 0.1, {
   generator: new SerpuloPlanetGenerator(),
   bloom: true,
   radius: 1,
