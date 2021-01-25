@@ -27,14 +27,14 @@
 	"ammoTypes": {
 		/*
 		"iron": {
-			"type" : "RailBulletType",
+			"type" : "BasicBulletType",
 			"damage": 2500,
 			"speed": 10.0,
 			"lifetime": 30,
 			"height": 30,
 			"width" : 12,
 			"ammoMultiplier": 1,
-      			"pierce": false,
+      			"pierce": true,
 			"collidesTiles" : true,
 			"lightning" : 8,
 			"lightningLength" : 45,
@@ -47,14 +47,14 @@
 		},
 		*/
 		"surge-alloy": { 
-			"type" : "RailBulletType",
+			"type" : "BasicBulletType",
 			"damage": 3000,
 			"height": 30,
 			"width" : 10,			
 			"speed": 15,
 			"lifetime": 45,
 			"ammoMultiplier": 1,
-			"pierce": false,	
+			"pierce": true,	
       			"collidesTiles" : true,
 			"lightning" : 12,
 			"lightningLength" : 85,
