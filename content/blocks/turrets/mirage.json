@@ -5,7 +5,7 @@
 
 	"maxAmmo": 135,
 	"ammoPerShot" : 45,
-	"reloadTime": 250,
+	"reloadTime": 2500,
 	"range": 1000,
 
 	"targetAir" : true, 
@@ -28,7 +28,7 @@
 		/*
 		"iron": {
 			"type" : "BasicBulletType",
-			"damage": 2500,
+			"damage": 500,
 			"speed": 10.0,
 			"lifetime": 30,
 			"height": 30,
@@ -48,11 +48,11 @@
 		*/
 		"surge-alloy": { 
 			"type" : "BasicBulletType",
-			"damage": 3000,
+			"damage": 1000,
 			"height": 30,
 			"width" : 10,			
-			"speed": 15,
-			"lifetime": 45,
+			"speed": 35,
+			"lifetime": 20,
 			"ammoMultiplier": 1,
 			"pierce": true,	
       			"collidesTiles" : true,
