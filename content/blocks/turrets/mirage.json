@@ -40,6 +40,7 @@
 			"lightningLength" : 45,
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
+			"shootEffect" : "railHit",
 			"hitEffect" : "massiveExplosion",
 			"smokeEffect" : "shootBig2",
 			"pierceDamageFactor" : 0.8
@@ -59,6 +60,7 @@
 			"lightningLength" : 85,
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
+			"shootEffect" : "railHit",
 			"hitEffect" : "massiveExplosion",
 			"smokeEffect" : "shootBig2",
 			"pierceDamageFactor" : 0.5
