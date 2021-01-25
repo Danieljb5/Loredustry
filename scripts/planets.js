@@ -20,7 +20,7 @@ const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
 });
 
 //sporio
-const sporio = extend(Planet, "sporio", Planets.sun, 2, 0.1, {
+const sporio = extend(Planet, "sporio", Planets.krillan, 2, 0.1, {
   generator: new SerpuloPlanetGenerator(),
   bloom: true,
   radius: 1,
@@ -29,7 +29,8 @@ const sporio = extend(Planet, "sporio", Planets.sun, 2, 0.1, {
   atmosphereColor: Color.valueOf("#590cab"),
   atmosphereRadIn: 0.02,
   atmosphereRadOut: 0.3,
-  localizedName: "Sporio"
+  localizedName: "Sporio",
+  orbitRadius: 0.1
 });
 sporio.meshLoader = () => extend(HexMesh, sporio, 4, {});
 
