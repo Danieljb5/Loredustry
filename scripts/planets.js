@@ -15,7 +15,7 @@ Events.on(ClientLoadEvent, () => {
   krillan.atmosphereRadIn = 0.02;
   krillan.atmosphereRadOut = 0.3;
   krillan.localizedName = "Krillan";
-  
+  /*
   //sporio
   const sporio = extend(Planet, "sporio", krillan, 2, 0.5);
   sporio.generator = new SerpuloPlanetGenerator();
@@ -41,7 +41,7 @@ Events.on(ClientLoadEvent, () => {
   embris.atmosphereRadIn = 0.02;
   embris.atmosphereRadOut = 0.3;
   embris.localizedName = "Embris";
-  
+  */
   //Maps
   //krillan
   const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1);
@@ -49,7 +49,7 @@ Events.on(ClientLoadEvent, () => {
   forgottenForest.localizedName = "Forgotten Forest";
   forgottenForest.difficulty = 2;
   forgottenForest.alwaysUnlocked = true;
-  
+  /*
   //sporio
   const sporeLab = extend(SectorPreset, "spore-lab", sporio, 5);
   sporeLab.captureWave = 0;
@@ -63,4 +63,5 @@ Events.on(ClientLoadEvent, () => {
   moltenRiver.localizedName = "Molten River";
   moltenRiver.difficulty = 1;
   moltenRiver.alwaysUnlocked = true;
+  */
 });
