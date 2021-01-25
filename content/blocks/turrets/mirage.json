@@ -25,6 +25,7 @@
   "buildCostMultiplier" : 0.5,
 
 	"ammoTypes": {
+		/*
 		"iron": {
 			"type" : "RailBulletType",
 			"damage": 2500,
@@ -33,7 +34,7 @@
 			"height": 30,
 			"width" : 12,
 			"ammoMultiplier": 1,
-      "pierce": true,
+      			"pierce": true,
 			"collidesTiles" : true,
 			"lightning" : 8,
 			"lightningLength" : 15,
@@ -42,7 +43,8 @@
 			"hitEffect" : "massiveExplosion",
 			"smokeEffect" : "shootBig2",
 			"pierceDamageFactor" : 0.8
-			},
+		},
+		*/
 		"surge-alloy": { 
 			"type" : "RailBulletType",
 			"damage": 3000,
@@ -52,7 +54,7 @@
 			"lifetime": 45,
 			"ammoMultiplier": 1,
 			"pierce": true,	
-      "collidesTiles" : true,
+      			"collidesTiles" : true,
 			"lightning" : 8,
 			"lightningLength" : 15,
 			"pierceEffect" : "railHit",
