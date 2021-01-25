@@ -5,7 +5,7 @@
 
 	"maxAmmo": 135,
 	"ammoPerShot" : 45,
-	"reloadTime": 2500,
+	"reloadTime": 500,
 	"range": 1000,
 
 	"targetAir" : true, 
@@ -67,7 +67,7 @@
 			}	
 	},
 	"consumes" : {
-		"power": 5
+		"power": 50
 		},
 	"requirements": [
 		{ "item": "thorium", "amount": 2000 },
