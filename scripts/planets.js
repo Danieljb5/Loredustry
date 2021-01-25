@@ -1,70 +1,66 @@
 Events.on(ClientLoadEvent, () => {
   //planets
   //krillan
-  const krillan = extend(Planet, "krillan", Planets.sun, 3.5, 0.5, {
-    generator: new SerpuloPlanetGenerator(),
-    bloom: true,
-    radius: 1,
-    accesible: true,
-    hasAtmosphere: true,
-    atmosphereColor: Color.valueOf("#ab7444"),
-    atmosphereRadIn: 0.02,
-    atmosphereRadOut: 0.3,
-    localizedName: "Krillan"
-  });
-  krillan.meshLoader = () => extend(HexMesh, krillan, 5, {});
+  const krillan = extend(Planet, "krillan", Planets.sun, 3.5, 0.5);
+  krillan.generator = new SerpuloPlanetGenerator();
+  krillan.mesh = new HexMesh(krillan, 6);
+  krillan.orbitRadius = 4;
+  krillan.orbitTime = 1.5 * 60;
+  krillan.rotateTime = 60;
+  krillan.bloom = true;
+  krillan.accesible = true;
+  krillan.alwaysUnlocked = true;
+  krillan.hasAtmosphere = true;
+  krillan.atmosphereColor = Color.valueOf("#ab7444");
+  krillan.atmosphereRadIn = 0.02;
+  krillan.atmosphereRadOut = 0.3;
+  krillan.localizedName = "Krillan";
   
   //sporio
-  const sporio = extend(Planet, "sporio", Planets.krillan, 2, 0.1, {
-    generator: new SerpuloPlanetGenerator(),
-    bloom: true,
-    radius: 1,
-    accesible: true,
-    hasAtmosphere: true,
-    atmosphereColor: Color.valueOf("#590cab"),
-    atmosphereRadIn: 0.02,
-    atmosphereRadOut: 0.3,
-    localizedName: "Sporio",
-    orbitRadius: 0.1
-  });
-  sporio.meshLoader = () => extend(HexMesh, sporio, 4, {});
+  const sporio = extend(Planet, "sporio", krillan, 2, 0.5);
+  sporio.generator = new SerpuloPlanetGenerator();
+  sporio.bloom = true;
+  sporio.accesible = true;
+  sporio.alwaysUnlocked = true;
+  sporio.hasAtmosphere = true;
+  sporio.atmosphereColor = Color.valueOf("#590cab");
+  sporio.atmosphereRadIn = 0.02;
+  sporio.atmosphereRadOut = 0.3;
+  sporio.localizedName = "Sporio";
+  sporio.mesh = new HexMesh(sporio, 4);
   
   //embris
-  const embris = extend(Planet, "embris", Planets.sun, 3, 0.5, {
-    generator: new SerpuloPlanetGenerator(),
-    bloom: true,
-    radius: 1,
-    accesible: true,
-    hasAtmosphere: true,
-    atmosphereColor: Color.valueOf("#260f06"),
-    atmosphereRadIn: 0.02,
-    atmosphereRadOut: 0.3,
-    localizedName: "Embris"
-  });
-  embris.meshLoader = () => extend(HexMesh, embris, 3, {});
+  const embris = extend(Planet, "embris", Planets.sun, 3, 0.5);
+  embris.generator = new SerpuloPlanetGenerator();
+  embris.bloom = true;
+  embris.accesible = true;
+  sporio.alwaysUnlocked = true;
+  embris.hasAtmosphere = true;
+  embris.atmosphereColor = Color.valueOf("#260f06");
+  embris.atmosphereRadIn = 0.02;
+  embris.atmosphereRadOut = 0.3;
+  embris.localizedName = "Embris";
+  embris.mesh = new HexMesh(embris, 5);
   
   //Maps
   //krillan
-  const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
-    captureWave: 30,
-    localizedName: "Forgotten Forest",
-    difficulty: 2,
-    alwaysUnlocked: true
-  });
+  const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1);
+  forgottenForest.captureWave = 30;
+  forgottenForest.localizedName = "Forgotten Forest";
+  forgottenForest.difficulty = 2;
+  forgottenForest.alwaysUnlocked = true;
   
   //sporio
-  const sporeLab = extend(SectorPreset, "spore-lab", sporio, 1, {
-    captureWave: 0,
-    localizedName: "Spore Lab",
-    difficulty: 1,
-    alwaysUnlocked: true
-  });
+  const sporeLab = extend(SectorPreset, "spore-lab", sporio, 5);
+  sporeLab.captureWave = 0;
+  sporeLab.localizedName = "Spore Lab";
+  sporeLab.difficulty = 1;
+  sporeLab.alwaysUnlocked = true;
   
   //embris
-  const moltenRiver = extend(SectorPreset, "molten-river", embris, 1, {
-    captureWave: 20,
-    localizedName: "Molten River",
-    difficulty: 1,
-    alwaysUnlocked: true
-  });
+  const moltenRiver = extend(SectorPreset, "molten-river", embris, 9);
+  moltenRiver.captureWave = 20;
+  moltenRiver.localizedName = "Molten River";
+  moltenRiver.difficulty = 1;
+  moltenRiver.alwaysUnlocked = true;
 });
