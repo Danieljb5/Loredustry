@@ -19,6 +19,7 @@ Events.on(ClientLoadEvent, () => {
   //sporio
   const sporio = extend(Planet, "sporio", krillan, 2, 0.5);
   sporio.generator = new SerpuloPlanetGenerator();
+  sporio.mesh = new HexMesh(sporio, 4);
   sporio.bloom = true;
   sporio.accesible = true;
   sporio.alwaysUnlocked = true;
@@ -27,11 +28,11 @@ Events.on(ClientLoadEvent, () => {
   sporio.atmosphereRadIn = 0.02;
   sporio.atmosphereRadOut = 0.3;
   sporio.localizedName = "Sporio";
-  sporio.mesh = new HexMesh(sporio, 4);
   
   //embris
   const embris = extend(Planet, "embris", Planets.sun, 3, 0.5);
   embris.generator = new SerpuloPlanetGenerator();
+  embris.mesh = new HexMesh(embris, 5);
   embris.bloom = true;
   embris.accesible = true;
   sporio.alwaysUnlocked = true;
@@ -40,7 +41,6 @@ Events.on(ClientLoadEvent, () => {
   embris.atmosphereRadIn = 0.02;
   embris.atmosphereRadOut = 0.3;
   embris.localizedName = "Embris";
-  embris.mesh = new HexMesh(embris, 5);
   
   //Maps
   //krillan
