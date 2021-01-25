@@ -1,0 +1,77 @@
+{
+   "type": "ItemTurret",
+	"size": 5,
+	"health": 1000,
+
+	"maxAmmo": 1,
+	"ammoPerShot" : 45,
+	"reloadTime": 250,
+	"range": 3000,
+
+	"targetAir" : true, 
+	"targetGround" : true, 
+
+	"rotateSpeed": 1,
+	"inaccuracy": 0,
+	"shots" : 1,
+	"xRand" : 4,
+
+	"recoilAmount" : 8,
+	"restitution" : 2, 
+
+	"shootSound" : "DeadeyeShoot",
+	"ammoUseEffect" : "casing3",
+  
+  "buildCostMultiplier" : 0.5,
+
+	"ammoTypes": {
+		"iron": {
+			"type" : "RailBulletType",
+			"damage": 2500,
+			"speed": 10.0,
+			"lifetime": 30,
+			"height": 30,
+			"width" : 12,
+			"ammoMultiplier": 1,
+      "pierce": true,
+			"collidesTiles" : true,
+			"lightning" : 8,
+			"lightningLength" : 15,
+			"pierceEffect" : "railHit",
+			"updateEffect" : "railTrail",
+			"hitEffect" : "massiveExplosion",
+			"smokeEffect" : "shootBig2",
+			"pierceDamageFactor" : 0.8
+			},
+		"surge-alloy": { 
+			"type" : "RailBulletType",
+			"damage": 3000,
+			"height": 30,
+			"width" : 10,			
+			"speed": 15,
+			"lifetime": 45,
+			"ammoMultiplier": 1,
+			"pierce": true,	
+      "collidesTiles" : true,
+			"lightning" : 8,
+			"lightningLength" : 15,
+			"pierceEffect" : "railHit",
+			"updateEffect" : "railTrail",
+			"hitEffect" : "massiveExplosion",
+			"smokeEffect" : "shootBig2",
+			"pierceDamageFactor" : 0.5
+			}	
+	},
+	"consumes" : {
+		"power": 5
+		},
+	"requirements": [
+		{ "item": "thorium", "amount": 2000 },
+		{ "item": "titanium", "amount": 1500 },
+		{ "item": "silicon", "amount": 1500 },
+		{ "item": "surge-alloy", "amount": 1200 },
+		{ "item": "metaglass", "amount": 1500 }
+	],
+	"category": "turret",
+	"research": "foreshadow"
+}
