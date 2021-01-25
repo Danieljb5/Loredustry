@@ -12,7 +12,7 @@
     atmosphereColor = Color.valueOf("#ab7444"),
     atmosphereRadIn = 0.02,
     atmosphereRadOut = 0.3,
-    localizedName = "Krillan",
+    localizedName = "Krillan"
   });
   krillan.meshLoader = () => extend(HexMesh, krillan, 6, {});
   
