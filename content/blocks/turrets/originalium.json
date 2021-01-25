@@ -1,13 +1,13 @@
 {
-    "type": "material",
-    "cost": 2.5,
-    "color": "03dffc",
-    "research": {
-         "parent" : "plastinium",
-         "requirements":[
-                {"item": "plastinium", "amount": 10 },
-                {"item": "phase-fabric", "amount": 2},
-         ]
-      },
-      "hardness": 10
+	"type": "material",
+	"cost": 2.5,
+	"color": "7575C8",
+	"research": {
+		"parent" : "plastinium",
+		"requirements":[
+			{ "item": "plastinium", "amount": 2000 },
+			{ "item": "phase-fabric", "amount": 5000 }
+		]
+	},
+	"hardness": 10
 }
