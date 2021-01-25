@@ -1,6 +1,6 @@
 {
    "type": "ItemTurret",
-	"size": 5,
+	"size": 4,
 	"health": 1000,
 
 	"maxAmmo": 1,
