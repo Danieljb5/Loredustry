@@ -1,4 +1,5 @@
 Events.on(ClientLoadEvent, () => {
+  //planets
   //krillan
   const krillan = extend(Planet, "krillan", Planets.sun, 3.5, 0.5, {
     generator: new SerpuloPlanetGenerator(),
@@ -12,13 +13,6 @@ Events.on(ClientLoadEvent, () => {
     localizedName: "Krillan"
   });
   krillan.meshLoader = () => extend(HexMesh, krillan, 5, {});
-  
-  const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
-    captureWave: 30,
-    localizedName: "Forgotten Forest",
-    difficulty: 2,
-    alwaysUnlocked: true
-  });
   
   //sporio
   const sporio = extend(Planet, "sporio", Planets.krillan, 2, 0.1, {
@@ -35,13 +29,6 @@ Events.on(ClientLoadEvent, () => {
   });
   sporio.meshLoader = () => extend(HexMesh, sporio, 4, {});
   
-  const sporeLab = extend(SectorPreset, "spore-lab", sporio, 1, {
-    captureWave: 0,
-    localizedName: "Spore Lab",
-    difficulty: 1,
-    alwaysUnlocked: true
-  });
-  
   //embris
   const embris = extend(Planet, "embris", Planets.sun, 3, 0.5, {
     generator: new SerpuloPlanetGenerator(),
@@ -56,6 +43,24 @@ Events.on(ClientLoadEvent, () => {
   });
   embris.meshLoader = () => extend(HexMesh, embris, 3, {});
   
+  //Maps
+  //krillan
+  const forgottenForest = extend(SectorPreset, "forgotten-forest", krillan, 1, {
+    captureWave: 30,
+    localizedName: "Forgotten Forest",
+    difficulty: 2,
+    alwaysUnlocked: true
+  });
+  
+  //sporio
+  const sporeLab = extend(SectorPreset, "spore-lab", sporio, 1, {
+    captureWave: 0,
+    localizedName: "Spore Lab",
+    difficulty: 1,
+    alwaysUnlocked: true
+  });
+  
+  //embris
   const moltenRiver = extend(SectorPreset, "molten-river", embris, 1, {
     captureWave: 20,
     localizedName: "Molten River",
