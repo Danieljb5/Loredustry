@@ -48,7 +48,7 @@
 		*/
 		"surge-alloy": { 
 			"type" : "BasicBulletType",
-			"damage": 100,
+			"damage": 50,
 			"height": 30,
 			"width" : 10,			
 			"speed": 35,
@@ -57,7 +57,7 @@
 			"pierce": true,	
       			"collidesTiles" : true,
 			"lightning" : 86,
-			"lightningLength" : 85,
+			"lightningLength" : 65,
 			"pierceEffect" : "hitLaser",
 			"updateEffect" : "artilleryTrail",
 			"shootEffect" : "hitLaser",
