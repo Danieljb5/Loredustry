@@ -52,7 +52,7 @@
 			"height": 30,
 			"width" : 10,			
 			"speed": 35,
-			"lifetime": 20,
+			"lifetime": 45,
 			"ammoMultiplier": 1,
 			"pierce": true,	
       			"collidesTiles" : true,
