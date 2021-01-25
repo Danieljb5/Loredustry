@@ -11,7 +11,7 @@
 	"buildCostMultiplier" : 0.6,
 	"updateEffect": "shieldBreak",	
 	"craftEffect": "plasticExplosion",
-	"outputItem": {"item": "originalium", "amount": 1},
+	"outputItem": {"item": "originalium", "amount": 2},
 	"consumes": {
 		"power": 3,
 		"items": {
