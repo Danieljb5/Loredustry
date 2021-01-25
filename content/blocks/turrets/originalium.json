@@ -3,9 +3,9 @@
 	"cost": 2.5,
 	"color": "7575C8",
 	"research": {
-		"parent" : "plastinium",
+		"parent" : "surge-alloy",
 		"requirements":[
-			{ "item": "plastinium", "amount": 2000 },
+			{ "item": "surge-alloy", "amount": 2000 },
 			{ "item": "phase-fabric", "amount": 5000 }
 		]
 	},
