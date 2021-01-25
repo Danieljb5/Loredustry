@@ -1,4 +1,3 @@
-Events.on(ClientLoadEvent, () => {
   //planets
   //krillan
   const krillan = extend(Planet, "krillan", Planets.sun, 3.5, 0.5);
@@ -64,4 +63,3 @@ Events.on(ClientLoadEvent, () => {
   moltenRiver.difficulty = 1;
   moltenRiver.alwaysUnlocked = true;
   */
-});
