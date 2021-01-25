@@ -39,7 +39,7 @@
 		{ "item": "lead", "amount": 60},
 		{ "item": "titanium", "amount": 50},
 		{ "item": "silicon", "amount": 50},
-		{ "item": "plastinium", "amount": 50},
+		{ "item": "plastanium", "amount": 50},
 	],
 	"category": "turret",
 	"research": "lancer"
