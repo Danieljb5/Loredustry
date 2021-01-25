@@ -1,0 +1,13 @@
+{
+    "type": "material",
+    "cost": 2.5,
+    "color": "03dffc",
+    "research": {
+         "parent" : "plastinium",
+         "requirements":[
+                {"item": "plastinium", "amount": 10 },
+                {"item": "phase-fabric", "amount": 2},
+         ]
+      },
+      "hardness": 10
+}

@@ -1,0 +1,34 @@
+{
+   "type": "GenericSmelter",
+   "health" : 250,
+   "size": 3,
+   "flameColor": e4f593,
+   "hasPower": true,
+   "hasLiquids": false,
+   "hasItems": true,
+   "craftTime": 150,
+   "itemCapacity": 60,
+   "buildCostMutiplier": 0.6,
+   "updateEffect": "shieldBreak",
+   "craftEffect": "plasticExplosion",
+   "outputItem": {"item": "originalium", "amount": 1},
+   "consumes: {
+        "power": 3,
+        "items": {
+           "items": [
+               {"item": "surge-alloy", "amount": 15},
+               {"item": "plastinium", "amount": 10},
+               {"item": "titanium", "amount": 15}
+            ]
+          }
+    },
+    "requirements": [ 
+          {"item": "plastinium", "amount": 50},
+          {"item": "phase-fabric", "amount": 45},
+          {"item": "silicon", "amount": 50},
+          {"item": "titanium", "amount": 25}
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter"
+}
+
