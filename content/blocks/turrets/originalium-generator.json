@@ -16,7 +16,7 @@
 		"power": 3,
 		"items": {
 			"items": [
-				{ "item": "plastinium", "amount": 12},
+				{ "item": "surge-alloy", "amount": 12},
 				{ "item": "phase-fabric", "amount": 30}
 			]
 		}
@@ -26,7 +26,7 @@
 		{ "item": "phase-fabric", "amount": 80 },
 		{ "item": "metaglass", "amount": 80 },
 		{ "item": "silicon", "amount": 90 },
-		{ "item": "plastinium", "amount": 85 }
+		{ "item": "surge-alloy", "amount": 85 }
 	],
 	"category": "crafting",
 	"research": "alloy-smelter"
