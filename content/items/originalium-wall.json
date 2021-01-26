@@ -7,5 +7,5 @@
           {"item": "titanium", "amount": 5 }
     ],
   "category": "defense",
-  "research": "plastinium-wall"
+  "research": "titanium-wall"
 }
