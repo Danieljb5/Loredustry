@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"health" : 300,
+	"size": 2,
+	"flameColor": "857758",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 160,
+	"itemCapacity": 60,
+	"buildCostMultiplier" : 0.6,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputItem": {"item": "unilaxium", "amount": 1},
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{ "item": "lead", "amount": 12},
+				{ "item": "thorium", "amount": 30}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 120 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 90 },
+	],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}
