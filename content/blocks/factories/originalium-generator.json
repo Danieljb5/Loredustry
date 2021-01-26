@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"health" : 280,
-	"size": 3,
+	"size": 2,
 	"flameColor": "FFC999",
 	"hasPower": true,
 	"hasLiquids": false,
