@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "health": 6500,
+  "size": 2,
+  "requirements": [
+          {"item": "originalium", "amount": 40 },
+          {"item": "titanium", "amount": 20 }
+    ],
+  "category": "defense",
+  "research": "originalium-wall"
+}
