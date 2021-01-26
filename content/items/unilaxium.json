@@ -1,0 +1,13 @@
+{
+	"type": "material",
+	"cost": 3,
+	"color": "855864",
+	"research": {
+		"parent" : "lead",
+		"requirements":[
+			{ "item": "lead", "amount": 2000 },
+			{ "item": "thorium", "amount": 5000 }
+		]
+	},
+	"hardness": 15
+}
