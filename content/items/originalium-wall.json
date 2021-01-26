@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "health": 1200,
+  "size": 1,
+  "requirements": [
+          {"item": "originalium", "amount": 14 },
+          {"item": "titanium", "amount": 5 }
+    ],
+  "category": "defense",
+  "research": "surge-alloy-wall"
+}
