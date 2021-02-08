@@ -1,0 +1,47 @@
+{
+	"type": "groundUnit",
+	"name": "spore-ridden-mech",
+	"maxVelocity": 1.5,
+	"speed": 0.2,
+	"drag": 0.4,
+	"mass": 20,
+	"hitsize": 20,
+	"shootCone": 360,
+	"rotatespeed": 0.2,
+	"health": 300,
+	"range": 35,
+	"weapon": {
+		"name": "nothing",
+		"length": 1, 
+		"shootcone": 360,
+		"range": 30,
+		"width": 0.1,
+		"inaccuracy": 20,
+		"reload": 15,
+		"alternate": true,
+		"shootSound": "explosion",
+		"bullet":{
+		"instantDisappear": true,
+		"lifetime": 60,
+		"speed": 2,
+		"collides": false,
+		     "fragBullets": 1,
+		     "fragBullet":{
+             "hitEffect": "explosion",
+             "bulletWidth": 5,
+             "bulletHeight": 5,
+             "type": "BasicBulletType",
+             "lifetime": 2400,
+             "drag": 0.05,
+             "damage": 8,
+             "speed": 3,
+             "velocityRnd": 0.35,
+             "splashDamageRadius": 8,
+             "splashDamage": 8,
+             "backColor": "d14a32",
+             "frontColor": "d14a32",
+             "hitEffect": "explosion", 
+             }         
+		}
+	}
+}
