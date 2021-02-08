@@ -25,19 +25,18 @@
   "buildCostMultiplier" : 0.5,
 
 	"ammoTypes": {
-		/*
-		"iron": {
+		"ancient-alloy": {
 			"type" : "BasicBulletType",
-			"damage": 15,
-			"speed": 10.0,
-			"lifetime": 30,
+			"damage": 50,
+			"speed": 40,
+			"lifetime": 50,
 			"height": 30,
 			"width" : 12,
 			"ammoMultiplier": 1,
       			"pierce": true,
 			"collidesTiles" : true,
-			"lightning" : 42,
-			"lightningLength" : 15,
+			"lightning" : 50,
+			"lightningLength" : 55,
 			"pierceEffect" : "hitLaser",
 			"updateEffect" : "artilleryTrail",
 			"shootEffect" : "hitLaser",
@@ -45,7 +44,6 @@
 			"smokeEffect" : "shootBig2",
 			"pierceDamageFactor" : 0.8
 		},
-		*/
 		"surge-alloy": { 
 			"type" : "BasicBulletType",
 			"damage": 20,
