@@ -3,7 +3,7 @@
  "health": "1000",
  "size": 1,
  "requirements": [
-   {"item": "unilaxium": "amount": 10 }
+   {"item": "unilaxium", "amount": 10 }
  ],
  "category": "defense",
  "research": "thorium-wall",
