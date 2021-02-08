@@ -23,7 +23,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 90 },
+		{ "item": "unilaxium", "amount": 90 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "metaglass", "amount": 80 },
 		{ "item": "silicon", "amount": 90 },
