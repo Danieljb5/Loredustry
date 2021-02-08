@@ -1,0 +1,12 @@
+{
+  "type": "Wall",
+  "health": 9000,
+  "size": 2,
+  "requirements": [
+          {"item": "ancient-alloy", "amount": 32 },
+          {"item": "unilaxium", "amount": 15 },
+          {"item": "originalium", "amount": 15 }
+    ],
+  "category": "defense",
+  "research": "ancient-defense"
+}
