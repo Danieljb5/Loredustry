@@ -3,7 +3,7 @@
 	"cost": 2.5,
 	"color": "3d3d29",
 	"research": {
-		"parent" : "phase-alloy",
+		"parent" : "phase-fabric",
 		"requirements":[
 			{ "item": "phase-fabric", "amount": 2000 },
 			{ "item": "surge-alloy", "amount": 2000 },
