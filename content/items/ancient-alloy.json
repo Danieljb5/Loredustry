@@ -5,9 +5,9 @@
 	"research": {
 		"parent" : "phase-alloy",
 		"requirements":[
-			{ "item": "phase-alloy", "amount": 2000 },
+			{ "item": "phase-fabric", "amount": 2000 },
 			{ "item": "surge-alloy", "amount": 2000 },
-      { "item": "thorium", "amount": 2500}
+                        { "item": "thorium", "amount": 2500}
 		]
 	},
 	"hardness": 20
