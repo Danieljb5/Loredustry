@@ -1,0 +1,71 @@
+{
+	"type": "ItemTurret",
+	"size": 3,
+	"health": 1500,
+
+	"maxAmmo": 50,
+	"ammoPerShot" : 5,
+	"reloadTime": 2,
+	"range": 150,
+
+	"targetAir" : true, 
+	"targetGround" : true, 
+
+	"rotateSpeed": 7,
+	"inaccuracy": 0.5,
+	"shots" : 2,
+	"xRand" : 4,
+
+	"recoilAmount" : 3,
+	"restitution" : 0.08, 
+
+	"shootSound" : "shootBig",
+	"ammoUseEffect" : "casing2",
+
+	"buildCostMultiplier" : 0.3,
+
+	"ammoTypes": {
+		"surge-alloy": {
+			"type" : "BasicBulletType",
+			"damage": 150,
+			"speed": 15,
+			"lifetime": 30,
+			"height": 30,
+			"width" : 12,
+			"ammoMultiplier": 16,
+			"lightning" : 3,
+			"lightningLength" : 8,
+			"collidesAir" : false,
+			"hitEffect": "hitYellowLaser",
+			"smokeEffect" : "shootBigSmoke",
+			"shootEffect": "producesmoke"
+			},
+		"ancient-alloy": { 
+			"type" : "BasicBulletType",
+			"damage": 400,
+			"height": 30,
+			"width" : 10,			
+			"speed": 12,
+			"lifetime": 30,
+			"ammoMultiplier": 8,
+      "lightning" : 5,
+      "lightningLength": 9
+			"collidesAir" : false,
+			"hitEffect": "hitYellowLaser",
+			"smokeEffect" : "shootBigSmoke",
+			"shootEffect": "producesmoke"
+			}	
+	},
+	"consumes" : {
+		"power": 5
+		},
+	"requirements": [
+		{ "item": "ancient-alloy", "amount": 150 },
+		{ "item": "plastanium", "amount": 80 },
+		{ "item": "surge-alloy", "amount" : 80},
+		{ "item": "metaglass", "amount" : 90},
+		{ "item": "unilaxium", "amount": 800 }
+	],
+	"category": "turret",
+	"research": "cyclone"
+}
