@@ -1,0 +1,23 @@
+{
+    "type": "ThermalGenerator",
+ 	"health" : 350,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+    "buildCostMultiplier" : 0.6,
+    
+    "powerProduction" : 20,
+	"attribute" : "heat",
+    "generateEffect" : "melting",
+
+    "requirements": [
+		{ "item": "ancient-alloy", "amount": 80 },
+		{ "item": "unilaxium", "amount": 100 },
+		{ "item": "metaglass", "amount": 80},
+		{ "item": "silicon", "amount": 70},
+		{ "item": "surge-alloy", "amount": 70 }
+	],
+	"category": "power",
+	"research": "differential-generator"
+}
