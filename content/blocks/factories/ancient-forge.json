@@ -28,7 +28,7 @@
 		{ "item": "metaglass", "amount": 80 },
 		{ "item": "silicon", "amount": 90 },
 		{ "item": "surge-alloy", "amount": 60 }
-    { "item": "phase-fabric", "amount": 60
+                { "item": "phase-fabric", "amount": 60 }
         ],
 	"category": "crafting",
 	"research": "alloy-smelter"
