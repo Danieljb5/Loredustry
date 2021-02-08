@@ -1,0 +1,14 @@
+{
+	"type": "material",
+	"cost": 2.5,
+	"color": "3d3d29",
+	"research": {
+		"parent" : "phase-alloy",
+		"requirements":[
+			{ "item": "phase-alloy", "amount": 2000 },
+			{ "item": "surge-alloy", "amount": 2000 },
+      { "item": "thorium", "amount": 2500}
+		]
+	},
+	"hardness": 20
+}
