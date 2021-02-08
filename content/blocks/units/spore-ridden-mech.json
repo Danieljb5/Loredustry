@@ -38,8 +38,8 @@
              "velocityRnd": 0.35,
              "splashDamageRadius": 8,
              "splashDamage": 8,
-             "backColor": "d14a32",
-             "frontColor": "d14a32",
+             "backColor": "ac30d1",
+             "frontColor": "ac30d1",
              "hitEffect": "explosion", 
              }         
 		}
