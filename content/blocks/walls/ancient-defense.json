@@ -1,0 +1,12 @@
+{
+  "type": "Wall",
+  "health": 3000,
+  "size": 1,
+  "requirements": [
+          {"item": "ancient-alloy", "amount": 10 },
+          {"item": "unilaxium", "amount": 5 },
+          {"item": "originalium", "amount": 10 }
+    ],
+  "category": "defense",
+  "research": "plastinium-wall"
+}
