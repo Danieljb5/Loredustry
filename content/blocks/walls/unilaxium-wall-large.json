@@ -1,0 +1,10 @@
+{
+ "type": "Wall",
+ "health": 5500,
+ "size": 2,
+ "requirements": [ 
+  {"item": "unilaxium", "amount": 30}
+ ],
+ "category": "defense",
+ "research": "unilaxium-wall"
+}
