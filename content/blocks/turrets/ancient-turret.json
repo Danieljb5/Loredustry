@@ -1,4 +1,6 @@
 {
+	"name": "Ancient Turret",
+	"description": "An very powerful turret that was once wielded by some unknown entity of destruction
 	"type": "ItemTurret",
 	"size": 3,
 	"health": 1500,
