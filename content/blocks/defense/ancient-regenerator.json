@@ -1,4 +1,5 @@
 {
+	"name": "Ancient Regenerator"
 	"type": "MendProjector",
 	"health": 300,
 	"size": 2,
