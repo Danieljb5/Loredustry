@@ -10,7 +10,7 @@
 	"reloadTime": 2,
 	"range": 500,
 
-	"targetAir" : true, 
+	"targetAir" : false, 
 	"targetGround" : true, 
 
 	"rotateSpeed": 7,
