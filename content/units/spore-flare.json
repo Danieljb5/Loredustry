@@ -1,6 +1,6 @@
 "name": "Spore Flare"
 "description": "A flying monstrosity, forcibly infected with the spores."
-"speed": 0.6
+"speed": 4
 "flying": true
 "health": 250
 "range": 180
