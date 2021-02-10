@@ -31,7 +31,9 @@
       "pierce": false,
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
-      "smokeEffect": "shootSmallSmoke"
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 1,
+      "homingRange": 20
     },
     "pyratite":{
       "type": "BasicBulletType",
@@ -46,7 +48,9 @@
       "pierce": true,
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
-      "smokeEffect": "shootSmallSmoke"
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 3,
+      "homingRange": 20
     },
   }
   "requirements": [
