@@ -8,9 +8,9 @@
 "targetsAir": true
 weapons:[
 {
-"name": "spore-large-weapon-outline"
-reload: 10
-shots: 2
-innaccuracy: 5
-recoil: 5
-shotDelay: 5
+"name": "spore-large-weapon-outline",
+"reload": 10,
+"shots": 2,
+"innaccuracy": 5,
+"recoil": 5,
+"shotDelay": 5,
