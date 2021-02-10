@@ -14,4 +14,6 @@ weapons:[
 "innaccuracy": 5,
 "recoil": 5,
 "shotDelay": 5,
+"bullet": "standardCopper",
+"damage": 14
 }]
