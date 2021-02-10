@@ -1,0 +1,19 @@
+"name": "Spore Flare"
+"description": "A flying monstrosity, forcibly infected with the spores."
+"speed": 0.6
+"flying": true
+"health": 250
+"range": 180
+"rotateSpeed": 10
+"targetsAir": true
+weapons:[
+{
+"name": "spore-large-weapon-outline",
+"reload": 12,
+"shots": 3,
+"innaccuracy": 3,
+"recoil": 2,
+"shotDelay": 5,
+"bullet": "standardCopper",
+"damage": 5
+}]
