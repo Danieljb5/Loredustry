@@ -1,7 +1,7 @@
 {
   "type": "Wall",
   "health": 3000,
-  "size": 2,
+  "size": 1,
   "requirements": [
           {"item": "ancient-alloy", "amount": 10 },
           {"item": "unilaxium", "amount": 5 },
