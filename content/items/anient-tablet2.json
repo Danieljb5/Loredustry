@@ -1,0 +1,14 @@
+{
+   "type": "material",
+   "name": "Crux War Tablet",
+   "description": "An ancient tablet depicting the great Crux War. After sustaining heavy losses on both sides, a greater threat arose.",
+   "cost": 5,
+   "color": "6c9e88",
+   "research": {
+      "parent": "ancient-alloy",
+      "requirements":[
+         { "item": "ancient-alloy", "amount": 10 }
+      ]
+   },
+   "hardness": 10
+}
