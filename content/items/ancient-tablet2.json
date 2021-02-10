@@ -1,7 +1,7 @@
 {
    "type": "material",
    "name": "Crux War Tablet",
-   "description": "An ancient tablet depicting the great Crux War. After sustaining heavy losses on both sides, a greater threat arose.",
+   "description": "An ancient tablet depicting the great Crux War. It has the caption 'Our common enemy'. After sustaining heavy losses on both sides, a greater threat arose.",
    "cost": 5,
    "color": "6c9e88",
    "research": {
