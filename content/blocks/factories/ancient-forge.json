@@ -1,4 +1,5 @@
 {
+	"name": "Ancient Forge",
   "type": "GenericSmelter",
 	"health" : 300,
 	"size": 3,
