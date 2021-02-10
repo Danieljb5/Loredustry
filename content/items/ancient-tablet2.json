@@ -5,9 +5,9 @@
    "cost": 5,
    "color": "6c9e88",
    "research": {
-      "parent": "ancient-alloy",
+      "parent": "ancient-tablet",
       "requirements":[
-         { "item": "ancient-tablet", "amount": 10 }
+         { "item": "ancient-alloy", "amount": 10 }
       ]
    },
    "hardness": 10
