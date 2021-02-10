@@ -1,4 +1,6 @@
 {
+	"name": "Unilaxiun",
+	"description": "An extremely radioactive compound that has some sort of connection to the sentient spores."
 	"type": "material",
 	"cost": 3,
 	"color": "855864",
