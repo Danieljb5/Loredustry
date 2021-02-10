@@ -1,0 +1,16 @@
+"name": "Spore Dagger"
+"description": "A dagger that has submitted to the spore hive mind."
+"speed": 0.6
+"flying": false
+"health": 200
+"range": 180
+"rotateSpeed": 10
+"targetsAir": true
+weapons:[
+{
+"name": "spore-large-weapon-outline"
+reload: 10
+shots: 2
+innaccuracy: 5
+recoil: 5
+shotDelay: 5
