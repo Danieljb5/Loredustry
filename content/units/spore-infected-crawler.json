@@ -4,7 +4,7 @@
 	"flying": false,
 	"name": "Spore crawler",
 	"maxVelocity": 1.2,
-	"speed": 0.3,
+	"speed": 2,
 	"drag": 0.4,
 	"mass": 10,
 	"hitsize": 8,
