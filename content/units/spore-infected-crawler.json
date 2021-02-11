@@ -3,7 +3,6 @@
 	"description": "Even the crawlers have been infected, making them far more deadly.",
 	"type": "groundUnit",
 	"name": "Spore crawler",
-	"description": "Fast bomb units packed with destructive spores.",
 	"maxVelocity": 1.2,
 	"speed": 0.3,
 	"drag": 0.4,
