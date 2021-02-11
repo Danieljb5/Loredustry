@@ -14,7 +14,7 @@
 	"health": 140,
 	"range": 30,
 	"weapon": {
-		"name": "spore-infected-crawler",
+		"name": "crawler1",
 		"length": 1, 
 		"shootcone": 360,
 		"range": 30,
@@ -28,7 +28,7 @@
              "killShooter": true,
              "speed": 1.5,
              "splashDamageRadius": 70,
-             "splashDamage": 30,
+             "splashDamage": 120,
              "hitEffect": "explosion",
              
              "fragBullets": 10,
