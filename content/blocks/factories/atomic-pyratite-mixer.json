@@ -11,9 +11,8 @@
   "craftTime": 600,
   "itemCapacity": 150,
   "buildCostMultiplier": 1.0,
-  "updateEffect": "shieldBreak",
+  "updateEffect": "flakExplosion",
   "craftEffect": "blastExplosion",
-  "updateEffect": "fire",
   "outputItem": {"item": "pyratite", "amount": 100},
   "consumes": {
     "power": 25,
