@@ -1,6 +1,6 @@
 {
   "name": "Atomic Pyratite Mixer",
-  "description": "Uses significant power to increase the efficiency of the reaction. Thorium can be used as a catalyst",
+  "description": "Uses significant power to increase the efficiency of the reaction. Thorium is used as a catalyst",
   "type": "GenericSmelter",
   "health": 600,
   "size": 4,
@@ -8,7 +8,7 @@
   "hasPower": true,
   "hasLiquids": false,
   "hasItems": true,
-  "craftTime": 3000,
+  "craftTime": 600,
   "itemCapacity": 150,
   "buildCostMultiplier": 1.0,
   "updateEffect": "shieldBreak",
@@ -21,7 +21,7 @@
         {"item": "coal", "amount": 50},
         {"item": "sand", "amount": 50},
         {"item": "lead", "amount": 40},
-        {"item": "thorium", "amount": 1, "optional": true, "speedBoostPhase": 5}
+        {"item": "thorium", "amount": 1}
         ]}},
   "requirements": [
     {"item": "copper", "amount": 150},
