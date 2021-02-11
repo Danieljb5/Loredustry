@@ -9,7 +9,7 @@
 	"hitsize": 17,
 	"shootCone": 360,
 	"rotatespeed": 0.1,
-	"health": 1200,
+	"health": 200,
 	"range": 60,
 	"weapon": {
 		"name": "nothing",
