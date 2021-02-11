@@ -1,6 +1,7 @@
 {
 	"name": "Spore Crawler",
 	"description": "Even the crawlers have been infected, making them far more deadly.",
+	"type": "mech",
 	"flying": false,
 	"name": "Spore crawler",
 	"maxVelocity": 1.2,
