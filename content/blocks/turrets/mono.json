@@ -1,4 +1,5 @@
 {
+     "name" : "mono",
      "type": "ItemTurret",
      "size": 1,
      "health": 100,
