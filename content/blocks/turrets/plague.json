@@ -1,0 +1,72 @@
+{
+  "name" : "Plague",
+  "type" : "ItemTurret",
+  "size" : 4,
+  "health" : 1650,
+  
+  "maxAmmo" : 65,
+  "ammoPerShot" : 1,
+  "reloadTime" : 50,
+  
+  "range" : 650,
+  "targetAir" : true,
+  "targetGround" : true,
+  "rotateSpeed" : 1,
+  "recoilAmount" : 4,
+  "restitution" : 1,
+  "shootSound" : "flame",
+  "lifetime" : 6,
+  "innacuracy" : 1,
+  "shots" : 350,
+  "shootcone" : 35,
+  "spread" : 4,
+  
+  "ammoTypes" : {
+    "coal":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 3,
+      "splashDamage": 1,
+      "splashDamageRadius": 8,
+      "height": 12,
+      "width": 7,
+      "speed": 15,
+      "lifetime": 250,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 1,
+      "homingRange": 120
+    },
+    "pyratite":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 5,
+      "splashDamage": 2,
+      "splashDamageRadius": 15,
+      "height": 12,
+      "width": 7,
+      "speed": 15,
+      "lifetime": 300,
+      "pierce": true,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 3,
+      "homingRange": 220
+    },
+  },
+  "requirements": [
+      { "item": "copper", "amount": 150},
+      { "item": "graphite", "amount": 80},
+      { "item": "lead", "amount": 60},
+      { "item": "titanium", "amount": 220}
+    ],
+    "category": "turret",
+    "research" : "blight"
+}
