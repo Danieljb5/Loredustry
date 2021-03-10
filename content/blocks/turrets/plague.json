@@ -6,9 +6,9 @@
   
   "maxAmmo" : 65,
   "ammoPerShot" : 1,
-  "reloadTime" : 50,
+  "reloadTime" : 500,
   
-  "range" : 650,
+  "range" : 250,
   "targetAir" : true,
   "targetGround" : true,
   "rotateSpeed" : 1,
