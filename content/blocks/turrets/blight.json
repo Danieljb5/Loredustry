@@ -57,7 +57,7 @@
       "homingPower": 3,
       "homingRange": 220
     },
-  }
+  },
   "requirements": [
       { "item": "copper", "amount": 150},
       { "item": "graphite", "amount": 80},
