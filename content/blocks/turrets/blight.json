@@ -1,4 +1,5 @@
 {
+  "name" : "Blight",
   "type" : "ItemTurret",
   "size" : 3,
   "health" : 950,
