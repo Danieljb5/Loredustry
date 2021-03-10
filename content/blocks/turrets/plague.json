@@ -18,7 +18,7 @@
   "lifetime" : 6,
   "innacuracy" : 1,
   "shots" : 350,
-  "shootcone" : 35,
+  "shootcone" : 5,
   "spread" : 4,
   
   "ammoTypes" : {
