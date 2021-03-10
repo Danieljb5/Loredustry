@@ -37,7 +37,7 @@
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke",
-      "homingPower": 3,
+      "homingPower": 1,
       "homingRange": 95
     },
     "pyratite":{
@@ -50,13 +50,13 @@
       "splashDamageRadius": 15,
       "height": 12,
       "width": 7,
-      "speed": 95,
+      "speed": 75,
       "lifetime": 155,
       "pierce": true,
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke",
-      "homingPower": 15,
+      "homingPower": 3,
       "homingRange": 185
     },
   },
