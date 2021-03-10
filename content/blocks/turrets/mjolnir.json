@@ -1,5 +1,5 @@
 { 
-	"name" : "Mjolnir"
+	"name" : "Mjolnir",
        "type" : "PowerTurret",
        "size" : 3,
        "health" : 200,
