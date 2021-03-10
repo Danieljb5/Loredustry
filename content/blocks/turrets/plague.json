@@ -38,7 +38,7 @@
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke",
       "homingPower": 2,
-      "homingRange": 35
+      "homingRange": 95
     },
     "pyratite":{
       "type": "BasicBulletType",
@@ -57,7 +57,7 @@
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke",
       "homingPower": 15,
-      "homingRange": 65
+      "homingRange": 185
     },
   },
   "requirements": [
