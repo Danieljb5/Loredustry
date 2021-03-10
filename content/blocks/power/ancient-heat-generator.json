@@ -1,6 +1,6 @@
 {
 	"name" : "Ancient Heat Generator",
-	"description" : "The complete plans for the thermal generator were never discovered, until now."
+	"description" : "The complete plans for the thermal generator were never discovered, until now.",
     	"type": "ThermalGenerator",
  	"health" : 350,
 	"size": 3,
