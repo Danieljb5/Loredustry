@@ -1,4 +1,5 @@
 {
+  "name" : "Trident",
   "type" : "ItemTurret",
   "size" : 2,
   "health" : 600,
