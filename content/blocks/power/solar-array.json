@@ -1,5 +1,6 @@
 {
-     "type": "SolarGenerator",
+	"name" : "Solar Array",
+     	"type": "SolarGenerator",
 	"health" : 400,
 	"size": 4,
 	"hasPower": true,
