@@ -37,7 +37,7 @@
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke",
-      "homingPower": 15,
+      "homingPower": 3,
       "homingRange": 95
     },
     "pyratite":{
@@ -56,7 +56,7 @@
       "ammoMultiplier": 25,
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke",
-      "homingPower": 45,
+      "homingPower": 15,
       "homingRange": 185
     },
   },
