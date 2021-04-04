@@ -1,2 +1,2 @@
 # Loredustry
-A mod that extends the Mindustry campaign as well as extensively expanding on the lore, adding new turrets, materials, units and much more :)   (currently in development)
+A mod that extends the Mindustry campaign as well as extensively expanding on the lore, adding new turrets, materials, units and much more :)   (project on hold)
