@@ -1,27 +1,3 @@
-//custom planet generators
-var arrs = [
-  [Blocks.slag, Blocks.darksandWater, Blocks.darksand, Blocks.darksand, Blocks.darksand, Blocks.darksand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.darksandWater, Blocks.stone, Blocks.stone],
-  [Blocks.slag, Blocks.darksandWater, Blocks.darksand, Blocks.darksand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.darksandWater, Blocks.stone, Blocks.stone, Blocks.stone],
-  [Blocks.slag, Blocks.darksandWater, Blocks.darksand, Blocks.sand, Blocks.salt, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.darksandWater, Blocks.stone, Blocks.stone, Blocks.stone],
-  [Blocks.slag, Blocks.sandWater, Blocks.sand, Blocks.salt, Blocks.salt, Blocks.salt, Blocks.sand, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.hotrock, Blocks.slag, Blocks.slag],
-  [Blocks.deepwater, Blocks.slag, Blocks.sandWater, Blocks.sand, Blocks.salt, Blocks.sand, Blocks.sand, Blocks.basalt, Blocks.hotrock, Blocks.hotrock, Blocks.hotrock, Blocks.hotrock, Blocks.slag],
-  [Blocks.deepwater, Blocks.slag, Blocks.sandWater, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.slag, Blocks.hotrock, Blocks.hotrock, Blocks.slag, Blocks.hotrock, Blocks.slag],
-  [Blocks.deepwater, Blocks.sandWater, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.grass, Blocks.hotrock, Blocks.basalt, Blocks.basalt, Blocks.basalt, Blocks.slag, Blocks.hotrock, Blocks.slag],
-  [Blocks.slag, Blocks.darksandWater, Blocks.darksand, Blocks.darksand, Blocks.basalt, Blocks.grass, Blocks.basalt, Blocks.hotrock, Blocks.basalt, Blocks.slag, Blocks.hotrock, Blocks.slag, Blocks.slag],
-  [Blocks.darksandWater, Blocks.darksand, Blocks.darksand, Blocks.darksand, Blocks.grass, Blocks.dirt, Blocks.hotrock, Blocks.basalt, Blocks.basalt, Blocks.slag, Blocks.hotrock, Blocks.slag, Blocks.slag],
-  [Blocks.darksandWater, Blocks.darksand, Blocks.darksand, Blocks.dirt, Blocks.slag, Blocks.slag, Blocks.hotrock, Blocks.hotrock, Blocks.hotrock, Blocks.hotrock, Blocks.slag, Blocks.slag, Blocks.slag],
-  [Blocks.slag, Blocks.darksandWater, Blocks.darksand, Blocks.mud, Blocks.mud, Blocks.slag, Blocks.slag, Blocks.hotrock, Blocks.hotrock, Blocks.slag, Blocks.slag, Blocks.slag, Blocks.slag],
-  [Blocks.darksandWater, Blocks.darksandWater, Blocks.darksand, Blocks.dirt, Blocks.grass, Blocks.dirt, Blocks.slag, Blocks.hotrock, Blocks.slag, Blocks.slag, Blocks.slag, Blocks.slag, Blocks.slag],
-  [Blocks.darksandWater, Blocks.darksand, Blocks.hotrock, Blocks.slag, Blocks.slag, Blocks.hotrock, Blocks.hotrock, Blocks.hotrock, Blocks.slag, Blocks.slag, Blocks.slag, Blocks.slag, Blocks.slag]
-];
-const embrisPlanetGenerator = extend(SerpuloPlanetGenerator, {
-  getBlock(p){
-    this.arr = arrs;
-    this.super$getBlock(p);
-  }
-});
-embrisPlanetGenerator.arr = arrs;
-
 //krillan
 const krillan = extend(Planet, "krillan", Planets.sun, 3.5, 0.5, {
   generator: new SerpuloPlanetGenerator(),
@@ -50,7 +26,7 @@ sporio.meshLoader = () => extend(HexMesh, sporio, 4, {});
 
 //embris
 const embris = extend(Planet, "embris", Planets.sun, 3, 0.5, {
-  generator: embrisPlanetGenerator,
+  generator: SerpuloPlanetGenerator,
   bloom: true,
   radius: 1,
   orbitRadius: 45,
