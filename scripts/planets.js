@@ -26,7 +26,7 @@ sporio.meshLoader = () => extend(HexMesh, sporio, 4, {});
 
 //embris
 const embris = extend(Planet, "embris", Planets.sun, 3, 0.5, {
-  generator: SerpuloPlanetGenerator,
+  generator: new EmbrisPlanetGenerator(),
   bloom: true,
   radius: 1,
   orbitRadius: 45,
