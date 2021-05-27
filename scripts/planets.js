@@ -26,13 +26,13 @@ sporio.meshLoader = () => extend(HexMesh, sporio, 4, {});
 
 //embris
 const embris = extend(Planet, "embris", Planets.sun, 3, 0.5, {
-  generator: new EmbrisPlanetGenerator(),
+  generator: new TantrosPlanetGenerator(),
   bloom: true,
   radius: 1,
   orbitRadius: 45,
   accesible: true,
   hasAtmosphere: true,
-  atmosphereColor: Color.valueOf("#260f06"),
+  atmosphereColor: Color.valueOf("#89e7f0"),
   atmosphereRadIn: 0.02,
   atmosphereRadOut: 0.3,
   localizedName: "Embris"
