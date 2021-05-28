@@ -19,7 +19,7 @@
     "powerUse": 1000,
     "hasPower": true,
     "shootType": {
-        "type": "BombBulletType",
+        "type": "BasicBulletType",
         "speed": 8.0,
         "lifetime": 500,
         "damage": 999,
@@ -29,6 +29,7 @@
         "width": 20,
         "hitSound": "explosion",
         "hitEffect": "nuclearShockwave",
+        "despawnEffect": "nuclearShockwave",
         "frontColor": "#d47b0f",
         "backColor": "d41f0f",
         "keepVelocity": true,
