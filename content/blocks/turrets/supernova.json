@@ -4,7 +4,7 @@
     "type": "PowerTurret",
     "size": 15,
     "health": 52000,
-    "reloadtime": 80,
+    "reloadtime": 8000,
     "range": 9999,
     "innacuracy": 0,
     "shots": 1,
