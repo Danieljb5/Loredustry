@@ -34,7 +34,17 @@
         "backColor": "d41f0f",
         "keepVelocity": true,
         "collides": true,
-        "collidesTiles": true
+        "collidesTiles": true,
+        "fragBullets": 95,
+        "fragVelocityMin": 4.0,
+        "fragVelocityMax": 20.0,
+        "fragBullet": {
+            "type": "BasicBulletType",
+            "lifetime": 25,
+            "damage": 500,
+            "homingPower": 1
+        },
+        "hitShake": 999.99
     },
     "requirements": [
         { "item": "ancient-alloy", "amount": 6000},
