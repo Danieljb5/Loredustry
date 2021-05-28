@@ -16,7 +16,7 @@
     "resitiution": 0.5,
     "rotateSpeed": 0.5,
     "shootSound": "plasmaboom",
-    "powerUse": 100,
+    "powerUse": 1000,
     "hasPower": true,
     "shootType": {
         "type": "BombBulletType",
@@ -30,7 +30,10 @@
         "hitSound": "explosion",
         "hitEffect": "nuclearShockwave",
         "frontColor": "#d47b0f",
-        "backColor": "d41f0f"
+        "backColor": "d41f0f",
+        "keepVelocity": true,
+        "collides": true,
+        "collidesTiles": true
     },
     "requirements": [
         { "item": "ancient-alloy", "amount": 6000},
