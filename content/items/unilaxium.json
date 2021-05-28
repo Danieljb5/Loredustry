@@ -11,5 +11,6 @@
 			{ "item": "thorium", "amount": 5000 }
 		]
 	},
-	"hardness": 15
+	"hardness": 15,
+	"radioactivity": 60.5
 }

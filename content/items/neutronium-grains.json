@@ -12,5 +12,6 @@
         ]
     },
     "hardness": 15,
-    "explosiveness": 999
+    "explosiveness": 999.99,
+    "radioactivity": 999.99
 }
