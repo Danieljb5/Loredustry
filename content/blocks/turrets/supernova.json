@@ -5,6 +5,8 @@
     "size": 15,
     "health": 52000,
     "reloadtime": 8000,
+    "maxAmmo": 1,
+    "ammoPerShot": 1,
     "range": 9999,
     "innacuracy": 0,
     "shots": 1,
