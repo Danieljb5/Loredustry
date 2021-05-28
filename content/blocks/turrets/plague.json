@@ -58,7 +58,7 @@
       "smokeEffect": "shootSmallSmoke",
       "homingPower": 7,
       "homingRange": 185
-    },
+    }
   },
   "requirements": [
       { "item": "copper", "amount": 150},

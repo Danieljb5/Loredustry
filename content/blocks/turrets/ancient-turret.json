@@ -51,7 +51,7 @@
 			"lifetime": 30,
 			"ammoMultiplier": 8,
       "lightning" : 5,
-      "lightningLength": 9
+      "lightningLength": 9,
 			"collidesAir" : false,
 			"hitEffect": "hitYellowLaser",
 			"smokeEffect" : "shootBigSmoke",

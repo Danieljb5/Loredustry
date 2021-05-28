@@ -16,7 +16,6 @@
   "targetAir" : false,
   "targetGround" : true,
 
-  "rotateSpeed" : 2,
   "recoilAmount" : 1,
   "restitution" : 1,
 
@@ -58,7 +57,7 @@
        },
        "pyratite": {
          "type" : "BasicBulletType",
-         "Status" : "burning"
+         "Status" : "burning",
          "damage": 2,
          "splashDamageRadius": 4,
          "splashDamage": 2,
