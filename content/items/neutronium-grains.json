@@ -1,0 +1,16 @@
+{
+    "name": "Neutronium Grains",
+    "description": "An extremely dense, volatile substance made of pure neutrons capable of destroying entire galaxies.",
+    "type": "material",
+    "cost": 3,
+    "color": "000000",
+    "research": {
+        "parent": "unilaxium",
+        "requirements":[
+            { "item": "unilaxium", "amount": 5000 },
+            { "item": "thorium", "amount": 15000 }
+        ]
+    },
+    "hardness": 15,
+    "explosiveness": 999
+}
