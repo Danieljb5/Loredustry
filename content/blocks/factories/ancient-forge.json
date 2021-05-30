@@ -1,0 +1,36 @@
+{
+	"name": "Ancient Forge",
+  "type": "GenericSmelter",
+	"health" : 300,
+	"size": 3,
+	"flameColor": "6fbbd9",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 150,
+	"itemCapacity": 60,
+	"buildCostMultiplier" : 0.9,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputItem": {"item": "ancient-alloy", "amount": 1},
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{ "item": "phase-fabric", "amount": 12},
+				{ "item": "surge-alloy", "amount": 12},
+        { "item": "thorium", "amount": 14},
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "unilaxium", "amount": 90 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "surge-alloy", "amount": 60 }
+                { "item": "phase-fabric", "amount": 60 }
+        ],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}
