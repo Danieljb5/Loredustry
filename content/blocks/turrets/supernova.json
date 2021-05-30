@@ -46,8 +46,6 @@
             "homingPower": 1,
             "hitEffect": "nuclearcloud",
             "despawnEffect": "nuclearcloud",
-            "lightning": 5,
-            "lightningLength": 15,
             "collides": true,
             "collidesTiles": true,
             "collidesAir": true
