@@ -15,7 +15,7 @@
     "recoilAmount": 25,
     "resitiution": 50,
     "rotateSpeed": 0.5,
-    "shootSound": "lasercharge",
+    "shootSound": "laserblast",
     "powerUse": 1000,
     "hasPower": true,
     "shootType": {
