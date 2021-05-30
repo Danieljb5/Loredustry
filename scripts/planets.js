@@ -63,3 +63,16 @@ const moltenRiver = extend(SectorPreset, "molten-river", embris, 9, {
   difficulty: 1,
   alwaysUnlocked: true
 });
+
+//asteroids
+
+const asteroid = extend(Planet, Planets.sun, 1, 0.1, {
+  generator: new SerpuloPlanetGenerator(),
+  bloom: true,
+  radius: 0.5,
+  orbitRadius: 7,
+  accesible: true,
+  hasAtmosphere: false,
+  localizedName: "Asteroid"
+});
+asteroid.meshLoader = () => extend(HexMesh, asteroid, 2, {});
