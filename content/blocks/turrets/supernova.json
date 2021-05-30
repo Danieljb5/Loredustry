@@ -37,7 +37,7 @@
         "collidesTiles": true,
         "fragBullets": 950,
         "fragVelocityMin": 4.0,
-        "fragVelocityMax": 20.0,
+        "fragVelocityMax": 80.0,
         "fragBullet": {
             "type": "BombBulletType",
             "lifetime": 25,
