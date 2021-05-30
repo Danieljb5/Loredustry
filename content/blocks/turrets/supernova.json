@@ -35,7 +35,8 @@
         "keepVelocity": true,
         "collides": true,
         "collidesTiles": true,
-        "fragBullets": 950,
+        "collidesAir": true,
+        "fragBullets": 250,
         "fragVelocityMin": 4.0,
         "fragVelocityMax": 80.0,
         "fragBullet": {
@@ -46,7 +47,10 @@
             "hitEffect": "nuclearcloud",
             "despawnEffect": "nuclearcloud",
             "lightning": 5,
-            "lightningLength": 15
+            "lightningLength": 15,
+            "collides": true,
+            "collidesTiles": true,
+            "collidesAir": true
         },
         "hitShake": 999.99
     },
