@@ -1,0 +1,29 @@
+{
+	"name": "Warp Booster",
+	"type": "OverdriveProjector",
+	"health": 300,
+	"size": 2,
+	"range": 50,
+	"reload": 50,
+	"speedBoost": 2,
+	"buildCostMultiplier" : 0.8,
+	"phaseRangeBoost": 60,
+	"speedBoostPhase" :0.50,
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [ 
+				{ "amount": 1, "item": "silicon" } 
+						],
+				"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "ancient-alloy", "amount": 50 },
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "unilaxium", "amount": 75 }
+	],
+	"category": "effect",
+	"research": "mender"
+
+}
