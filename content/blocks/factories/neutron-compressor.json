@@ -1,0 +1,32 @@
+{
+	"name": "Neutron Compressor",
+    "description": "Compresses neutron clmps to create neutronium grains.",
+    "type": "GenericSmelter",
+	"health" : 300,
+	"size": 3,
+	"flameColor": "6fbbd9",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 150,
+	"itemCapacity": 60,
+	"buildCostMultiplier" : 0.9,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputItem": {"item": "neutronium-grains", "amount": 1},
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+                { "item": "neutron-clump", "amount": 90 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 1800},
+		{ "item": "surge-alloy", "amount": 1100},
+        { "item": "thorium", "amount": 1700}
+    ],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}

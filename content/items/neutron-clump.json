@@ -1,0 +1,17 @@
+{
+    "name": "Clump of Neutrons",
+    "description": "An extremely dense, highly radioactive substance made of pure neutrons.",
+    "type": "material",
+    "cost": 3,
+    "color": "222222",
+    "research": {
+        "parent": "unilaxium",
+        "requirements":[
+            { "item": "unilaxium", "amount": 5000 },
+            { "item": "thorium", "amount": 15000 }
+        ]
+    },
+    "hardness": 15,
+    "explosiveness": 999.99,
+    "radioactivity": 999.99
+}

@@ -24,11 +24,11 @@
         {"item": "thorium", "amount": 1}
         ]}},
   "requirements": [
-    {"item": "copper", "amount": 150},
-    {"item": "lead", "amount": 180},
-    {"item": "titanium", "amount": 100},
-    {"item": "thorium", "amount": 200},
-    {"item": "silicon", "amount": 180}
+      {"item": "copper", "amount": 150},
+      {"item": "lead", "amount": 180},
+      {"item": "titanium", "amount": 100},
+      {"item": "thorium", "amount": 200},
+      {"item": "silicon", "amount": 180}
     ],
   "category": "crafting",
   "research": "alloy-smelter"

@@ -1,14 +1,15 @@
 {
     "name": "Neutronium Grains",
-    "description": "An extremely dense, volatile substance made of pure neutrons capable of destroying entire galaxies.",
+    "description": "An extremely dense, volatile substance made of pure neutrons capable of destroying entire galaxies. Found at the heart of dying stars.",
     "type": "material",
     "cost": 3,
     "color": "000000",
     "research": {
-        "parent": "unilaxium",
+        "parent": "neutron-clump",
         "requirements":[
             { "item": "unilaxium", "amount": 5000 },
-            { "item": "thorium", "amount": 15000 }
+            { "item": "thorium", "amount": 15000 },
+            { "item": "neutron-clump", "amount": 9000 }
         ]
     },
     "hardness": 15,

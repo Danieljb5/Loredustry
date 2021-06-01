@@ -19,7 +19,7 @@
 			"items": [
 				{ "item": "phase-fabric", "amount": 12},
 				{ "item": "surge-alloy", "amount": 12},
-        { "item": "thorium", "amount": 14},
+        		{ "item": "thorium", "amount": 14}
 			]
 		}
 	},
@@ -28,9 +28,9 @@
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "metaglass", "amount": 80 },
 		{ "item": "silicon", "amount": 90 },
-		{ "item": "surge-alloy", "amount": 60 }
-                { "item": "phase-fabric", "amount": 60 }
-        ],
+		{ "item": "surge-alloy", "amount": 60 },
+        { "item": "phase-fabric", "amount": 60 }
+    ],
 	"category": "crafting",
 	"research": "alloy-smelter"
 }

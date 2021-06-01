@@ -25,7 +25,7 @@
 		{ "item": "lead", "amount": 120 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "metaglass", "amount": 80 },
-		{ "item": "silicon", "amount": 90 },
+		{ "item": "silicon", "amount": 90 }
 	],
 	"category": "crafting",
 	"research": "alloy-smelter"

@@ -19,15 +19,15 @@
 			"items": [
 				{ "item": "phase-fabric", "amount": 5},
 				{ "item": "surge-alloy", "amount": 5},
-        { "item": "thorium", "amount": 5},
-        { "item": "unilaxium", "amount": 5},
-        { "item": "originalium", "amount": 5},
-        { "item": "silicon", "amount": 5},
-        { "item": "surge-alloy", "amount": 5},
-        { "item": "metaglass", "amount": 5},
-        { "item": "copper", "amount": 5},
-        { "item": "lead", "amount": 5},
-        { "item": "phase-fabric", "amount": 5},
+        		{ "item": "thorium", "amount": 5},
+        		{ "item": "unilaxium", "amount": 5},
+        		{ "item": "originalium", "amount": 5},
+        		{ "item": "silicon", "amount": 5},
+        		{ "item": "surge-alloy", "amount": 5},
+        		{ "item": "metaglass", "amount": 5},
+        		{ "item": "copper", "amount": 5},
+        		{ "item": "lead", "amount": 5},
+        		{ "item": "phase-fabric", "amount": 5}
 			]
 		}
 	},
@@ -36,10 +36,10 @@
 		{ "item": "thorium", "amount": 150 },
 		{ "item": "metaglass", "amount": 150 },
 		{ "item": "silicon", "amount": 150 },
-		{ "item": "surge-alloy", "amount": 90 }
-    { "item": "phase-fabric", "amount": 90 }
-    { "item": "ancient-alloy", "amount": 100 }
-        ],
+		{ "item": "surge-alloy", "amount": 90 },
+    	{ "item": "phase-fabric", "amount": 90 },
+    	{ "item": "ancient-alloy", "amount": 100 }
+    ],
 	"category": "crafting",
 	"research": "alloy-smelter"
 }
