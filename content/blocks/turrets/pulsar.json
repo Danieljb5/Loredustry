@@ -1,5 +1,5 @@
 {
-    "name": "Black Hole",
+    "name": "Pulsar",
     "description": "A modification of the original supernova design, made as a large point defense system.",
     "type": "TractorBeamTurret",
     "timerTarget": 1,
@@ -19,7 +19,7 @@
     "innacuracy": 0,
     "targetAir": true,
     "targetGround": true,
-    "rotateSpeed": 0.5,
+    "rotateSpeed": 5,
     "shootSound": "laserblast",
     "powerUse": 1000,
     "hasPower": true,
@@ -30,7 +30,7 @@
         { "item": "thorium", "amount": 9000},
         { "item": "silicon", "amount": 8500},
         { "item": "neutronium-grains", "amount": 9000},
-        { "item": "supernova-module", "amount": 100}
+        { "item": "supernova-module", "amount": 15}
     ],
     "category": "turret",
     "research": "mirage"
