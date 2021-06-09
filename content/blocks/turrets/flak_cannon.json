@@ -27,7 +27,7 @@
 
 	"ammoTypes": {
 		"titanium": {
-			"type" : "BombBulletType",
+			"type" : "FlakBulletType",
 			"damage": 100,
 			"speed": 30,
 			"lifetime": 50,
@@ -42,7 +42,7 @@
 			"pierceDamageFactor" : 0.8
 		},
 		"surge-alloy": { 
-			"type" : "BombBulletType",
+			"type" : "FlakBulletType",
 			"damage": 150,
 			"height": 30,
 			"width" : 10,			
