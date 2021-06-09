@@ -9,7 +9,7 @@
         "requirements":[
             { "item": "unilaxium", "amount": 5000 },
             { "item": "thorium", "amount": 15000 },
-            { "item": "neutron-grains", "amount": 9000 }
+            { "item": "neutronium-grains", "amount": 9000 }
         ]
     },
     "hardness": 15,
