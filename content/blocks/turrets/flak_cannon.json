@@ -28,7 +28,7 @@
 	"ammoTypes": {
 		"titanium": {
 			"type" : "FlakBulletType",
-			"damage": 100,
+			"damage": 80,
 			"speed": 30,
 			"lifetime": 50,
 			"height": 30,
@@ -43,7 +43,7 @@
 		},
 		"surge-alloy": { 
 			"type" : "FlakBulletType",
-			"damage": 150,
+			"damage": 130,
 			"height": 30,
 			"width" : 10,			
 			"speed": 35,
