@@ -5,7 +5,7 @@
     "retargetTime": 0.01,
     "bulletDamage": 500,
     "shootLength": 999,
-    "size": 17,
+    "size": 15,
     "health": 52000,
     "reloadtime": 8000,
     "range": 9999,
