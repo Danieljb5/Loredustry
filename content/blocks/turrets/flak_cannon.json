@@ -59,7 +59,7 @@
 			}	
 	},
 	
-		},
+		
 	"requirements": [
 		{ "item": "titanium", "amount": 300 },
 		{ "item": "copper", "amount": 400 },
