@@ -1,0 +1,87 @@
+{
+     "name" : "bolter",
+     "type": "ItemTurret",
+     "size": 3,
+     "health": 250,
+     "reloadTime": 10,
+     "range": 200,
+     "maxAmmo": 20,
+     "innaccuracy": 2,
+     "shots" : 3,
+     
+
+     "targetAir" : true,
+     "targetGround" : true,
+     "shootCone" : 0.1,
+     "spread" : 1,
+
+
+     "recoil" : 3,
+     "restitution" : 0.5,
+     "rotateSpeed" : 5,
+
+
+     "shootSound" : "artillery",
+
+     "xRand" : 1,
+     "ammoPerShot" : 1,
+
+
+     "ammoTypes": {
+         "copper": {
+              	"type" : "BombBulletType",
+			"damage": 20,
+			"speed": 30,
+			"lifetime": 50,
+			"height": 15,
+      "width" : 7,
+       "speed" : 6,
+       "lifetime" : 30,
+       "ammoMultiplier" : 1,
+       "smokeEffect" : "shootSmallSmoke"
+		
+         },
+         "scrap": {
+              "type" : "BombBulletType",
+              "damage" : 20,
+              "height" : 15,
+              "width" : 7,
+              "speed" : 6,
+              "lifetime" : 30,
+              "ammoMultiplier" : 1,
+              "smokeEffect" : "shootSmallSmoke"
+         },
+         "titanium": {
+              "type" : "BombBulletType",
+              "damage" : 50,
+              "height" : 15,
+              "width" : 7,
+              "speed" : 6,
+              "lifetime" : 30,
+              "ammoMultiplier" : 1,
+              "smokeEffect" : "shootSmallSmoke"
+         },
+         "plastanium": {
+              "type" : "BombBulletType",
+              "status" : "burning",
+              "damage" : 80,
+              "height" : 15,
+              "width" : 7,
+              "speed" : 6,
+              "lifetime" : 30,
+              "ammoMultiplier": 1,
+              "smokeEffect" : "shootSmallSmoke"
+         }
+     
+     },
+
+"requirements": [
+     { "item" : "copper", "amount": 50 },
+     { "item" : "lead", "amount": 30 },
+     { "item" : "silicon", "amount": 30 }
+
+],
+"category" : "turret",
+"research" : "duo"
+
+}
