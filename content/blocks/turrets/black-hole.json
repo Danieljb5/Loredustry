@@ -8,7 +8,7 @@
     "shootcone": 50,
     "shootLength": 999,
     "laserWidth": 0,
-    "force": 10,
+    "force": 100,
     "scaledForce": 0,
     "beamEffect": "shieldBreak",
     "hitEffect": "plasticExplosion",
