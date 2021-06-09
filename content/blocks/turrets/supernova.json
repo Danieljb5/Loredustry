@@ -59,7 +59,8 @@
         { "item": "unilaxium", "amount": 7000},
         { "item": "thorium", "amount": 9000},
         { "item": "silicon", "amount": 5500},
-        { "item": "neutronium-grains", "amount": 9000}
+        { "item": "neutronium-grains", "amount": 9000},
+        { "item": "supernova-module", "amount": 10}
     ],
     "category": "turret",
     "research": "mirage"
