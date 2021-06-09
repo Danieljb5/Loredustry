@@ -20,6 +20,7 @@
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
+        "configurable": true,
         "speed": 20.0,
         "lifetime": 150,
         "damage": 999,
