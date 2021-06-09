@@ -9,8 +9,8 @@
 	"reloadTime": 500,
 	"range": 800,
 
-	"targetAir" : false, 
-	"targetGround" : true, 
+	"targetAir" : true, 
+	"targetGround" : false, 
 
 	"rotateSpeed": 1,
 	"inaccuracy": 0,
