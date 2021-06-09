@@ -1,0 +1,71 @@
+{
+	"name" : "Flak cannon",
+   	"type": "ItemTurret",
+	"size": 4,
+	"health": 500,
+
+	"maxAmmo": 90,
+	"ammoPerShot" : 5,
+	"reloadTime": 500,
+	"range": 800,
+
+	"targetAir" : false, 
+	"targetGround" : true, 
+
+	"rotateSpeed": 1,
+	"inaccuracy": 0,
+	"shots" : 1,
+	"xRand" : 4,
+
+	"recoilAmount" : 8,
+	"restitution" : 2, 
+
+	"shootSound" : "DeadeyeShoot",
+	"ammoUseEffect" : "casing3",
+  
+  "buildCostMultiplier" : 0.5,
+
+	"ammoTypes": {
+		"titanium": {
+			"type" : "BombBulletType",
+			"damage": 100,
+			"speed": 30,
+			"lifetime": 50,
+			"height": 30,
+			"width" : 12,
+			"ammoMultiplier": 1,
+      			"pierce": true,
+			"collidesTiles" : true,
+			"updateEffect" : "artilleryTrail",
+			"hitEffect" : "explosion",
+			"smokeEffect" : "shootBig2",
+			"pierceDamageFactor" : 0.8
+		},
+		"surge-alloy": { 
+			"type" : "BombBulletType",
+			"damage": 150,
+			"height": 30,
+			"width" : 10,			
+			"speed": 35,
+			"lifetime": 45,
+			"ammoMultiplier": 1,
+			"pierce": true,	
+      			"collidesTiles" : true,
+			"pierceEffect" : "hitLaser",
+			"updateEffect" : "artilleryTrail",
+			"hitEffect" : "explosion",
+			"smokeEffect" : "shootBig2",
+			"pierceDamageFactor" : 0.5
+			}	
+	},
+	
+		},
+	"requirements": [
+		{ "item": "titanium", "amount": 300 },
+		{ "item": "copper", "amount": 400 },
+		{ "item": "lead", "amount": 350 },
+		{ "item": "silicon", "amount": 150 }
+	],
+	"category": "turret",
+	"research": "hail"
+}
