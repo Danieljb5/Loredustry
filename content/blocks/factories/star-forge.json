@@ -1,0 +1,36 @@
+{
+	"name": "Star Forge",
+    "description": "Creates a key component to a powerful weapon.",
+    "type": "GenericSmelter",
+	"health" : 3000,
+	"size": 3,
+	"flameColor": "6fbbd9",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 250,
+	"itemCapacity": 600,
+	"buildCostMultiplier" : 1.9,
+	"updateEffect": "plasticExplosion",	
+	"craftEffect": "shieldBreak",
+	"outputItem": {"item": "supernova-module", "amount": 1},
+	"consumes": {
+		"power": 50,
+		"items": {
+			"items": [
+                { "item": "unilaxium", "amount": 90 },
+		        { "item": "thorium", "amount": 80 },
+                { "item": "neutronium-grains", "amount": 150}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 120},
+		{ "item": "surge-alloy", "amount": 120},
+        { "item": "thorium", "amount": 140},
+        { "item": "neutronium-grains", "amount": 150},
+        { "item": "unilaxium", "amount": 150}
+    ],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}

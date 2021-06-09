@@ -1,0 +1,18 @@
+{
+    "name": "Supernova Module",
+    "description": "The core component for one of the most powerful weapons in the universe.",
+    "type": "material",
+    "cost": 3,
+    "color": "ff1111",
+    "research": {
+        "parent": "neutron-grains",
+        "requirements":[
+            { "item": "unilaxium", "amount": 5000 },
+            { "item": "thorium", "amount": 15000 },
+            { "item": "neutron-grains", "amount": 9000 }
+        ]
+    },
+    "hardness": 15,
+    "explosiveness": 999.99,
+    "radioactivity": 999.99
+}
