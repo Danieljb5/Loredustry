@@ -9,7 +9,7 @@
     "shootLength": 999,
     "laserWidth": 1,
     "laserColor": "552255",
-    "force": 100,
+    "force": 10000,
     "scaledForce": 0,
     "beamEffect": "shieldBreak",
     "hitEffect": "plasticExplosion",
