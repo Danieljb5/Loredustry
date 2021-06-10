@@ -1,6 +1,6 @@
 {
 	"name": "Heat Exchanger",
-    "description": "Exchanges heat from superheated cryofluid into water.",
+    "description": "Exchanges heat from superheated cryofluid into steam.",
     "type": "GenericSmelter",
 	"health" : 300,
 	"size": 15,
@@ -14,15 +14,12 @@
 	"buildCostMultiplier" : 0.9,
 	"updateEffect": "shieldBreak",	
 	"craftEffect": "plasticExplosion",
-	"outputLiquid": {"liquid": "steam", "amount": 3000},
+	"outputLiquid": {"liquid": "steam", "amount": 300},
     "outputItem": {"item": "titanium", "amount": 10},
 	"consumes": {
 		"power": 1,
         "liquid": {
             "liquid": "superheated-cryofluid", "amount": 2
-        },
-        "liquid": {
-            "liquid": "water", "amount": 2
         }
 	},
 	"requirements": [
