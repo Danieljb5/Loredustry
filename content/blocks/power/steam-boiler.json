@@ -8,13 +8,13 @@
 	"hasPower": false,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 150,
+	"craftTime": 15,
 	"itemCapacity": 60,
     "liquidCapacity": 500,
 	"buildCostMultiplier" : 0.9,
 	"updateEffect": "plasticExplosion",
 	"craftEffect": "shieldBreak",
-	"outputLiquid": {"liquid": "steam", "amount": 16.25},
+	"outputLiquid": {"liquid": "steam", "amount": 6.5},
 	"consumes": {
 		"power": 5,
         "items": {
