@@ -3,7 +3,7 @@
     "description": "Contains an artificial star.",
     "type": "GenericSmelter",
 	"health" : 300,
-	"size": 3,
+	"size": 15,
 	"flameColor": "6fbbd9",
 	"hasPower": true,
 	"hasLiquids": true,
