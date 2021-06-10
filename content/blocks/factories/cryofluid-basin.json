@@ -1,6 +1,6 @@
 {
 	"name": "Cryofluid Basin",
-    "description": "Exchanges heat from superheated cryofluid into steam.",
+    "description": "A larger, industrial scale version of the cryofluid mixer.",
     "type": "GenericSmelter",
 	"health" : 300,
 	"size": 9,
@@ -16,13 +16,13 @@
 	"craftEffect": "plasticExplosion",
 	"outputLiquid": {"liquid": "cryofluid", "amount": 30},
 	"consumes": {
-		"power": 1,
+		"power": 15,
         "liquid": {
             "liquid": "water", "amount": 10
         },
         "items": {
             "items": [
-                {"item": "titanium", "amount": 15}
+                {"item": "titanium", "amount": 10}
             ]
         }
 	},
