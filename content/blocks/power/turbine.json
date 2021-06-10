@@ -6,7 +6,7 @@
 	"size": 3,
 	"flameColor": "6fbbd9",
 	"powerProduction": 1666,
-    "plasmas": 4,
+    "plasmas": 1,
     "warmupSpeed": 0.01,
     "itemDuration": 60,
     "hasPower": true,
@@ -14,10 +14,11 @@
     "hasItems": false,
     "consumesPower": true,
     "outputsPower": true,
+    "plasma1": "ffffff",
     "consumes": {
         "power": 0,
         "liquid": {
-            "liquid": "steam", "amount": 20
+            "liquid": "steam", "amount": 2
         }
     },
 	"requirements": [
