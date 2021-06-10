@@ -10,7 +10,7 @@
 	"hasItems": true,
 	"craftTime": 15,
 	"itemCapacity": 60,
-    "liquidCapacity": 500,
+    "liquidCapacity": 5000,
 	"buildCostMultiplier" : 0.9,
 	"updateEffect": "shieldBreak",	
 	"craftEffect": "plasticExplosion",
