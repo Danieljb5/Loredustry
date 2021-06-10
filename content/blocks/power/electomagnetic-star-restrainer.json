@@ -17,7 +17,7 @@
 	"outputItem": {"liquid": "superheated-cryofluid", "amount": 20},
 	"consumes": {
 		"power": 5,
-		"liquid": [
+		"LiquidStack": [
             {"liquid": "cryofluid", "amount": 20}
         ],
         "items": [
