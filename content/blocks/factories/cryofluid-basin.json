@@ -20,9 +20,11 @@
         "liquid": {
             "liquid": "water", "amount": 10
         },
-        "items": [
-            {"item": "titanium", "amount": 15}
-        ]
+        "items": {
+            "items": [
+                {"item": "titanium", "amount": 15}
+            ]
+        }
 	},
 	"requirements": [
 		{ "item": "phase-fabric", "amount": 1200},
