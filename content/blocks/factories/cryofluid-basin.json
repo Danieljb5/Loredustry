@@ -14,7 +14,7 @@
 	"buildCostMultiplier" : 0.9,
 	"updateEffect": "shieldBreak",	
 	"craftEffect": "plasticExplosion",
-	"outputLiquid": {"liquid": "cryofluid", "amount": 80},
+	"outputLiquid": {"liquid": "cryofluid", "amount": 320},
 	"consumes": {
 		"power": 15,
         "liquid": {
