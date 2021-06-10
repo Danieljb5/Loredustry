@@ -16,7 +16,6 @@
 	"craftEffect": "shieldBreak",
 	"outputLiquid": {"liquid": "steam", "amount": 6.5},
 	"consumes": {
-		"power": 5,
         "items": {
             "items": [
                 {"item": "coal", "amount": 2}
