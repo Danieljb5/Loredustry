@@ -1,0 +1,28 @@
+{
+	"name": "Turbine",
+    "description": "Generates power from steam",
+    "type": "ImpactReactor",
+	"health" : 300,
+	"size": 3,
+	"flameColor": "6fbbd9",
+	"powerProduction": 1666,
+    "plasmas": 4,
+    "warmupSpeed": 0.01,
+    "itemDuration": 60,
+    "hasLiquids": true,
+    "hasItems": false,
+    "outputsPower": true,
+    "consumes": {
+        "liquid": {
+            "liquid": "steam", "amount": 20
+        }
+    },
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 1200},
+		{ "item": "surge-alloy", "amount": 1200},
+        { "item": "thorium", "amount": 1400},
+        { "item": "neutronium-grains", "amount": 5200}
+    ],
+	"category": "power",
+	"research": "impact-reactor"
+}

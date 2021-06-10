@@ -1,0 +1,9 @@
+{
+    "name": "Steam",
+    "color": "2211aa",
+    "flammability": 0,
+    "temperature": 10,
+    "heatCapacity": 0,
+    "viscosity": 0.01,
+    "explosiveness": 0
+}

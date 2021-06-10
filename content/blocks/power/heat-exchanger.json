@@ -1,0 +1,37 @@
+{
+	"name": "Heat Exchanger",
+    "description": "Exchanges heat from superheated cryofluid into water.",
+    "type": "GenericSmelter",
+	"health" : 300,
+	"size": 15,
+	"flameColor": "6fbbd9",
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 150,
+	"itemCapacity": 60,
+    "liquidCapacity": 500,
+	"buildCostMultiplier" : 0.9,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputLiquid": {"liquid": "superheated-cryofluid", "amount": 3000},
+	"consumes": {
+		"power": 5,
+        "items": {
+            "items": [
+                {"item": "supernova-module", "amount": 1}
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid", "amount": 20
+        }
+	},
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 1200},
+		{ "item": "surge-alloy", "amount": 1200},
+        { "item": "thorium", "amount": 1400},
+        { "item": "neutronium-grains", "amount": 5200}
+    ],
+	"category": "power",
+	"research": "impact-reactor"
+}
