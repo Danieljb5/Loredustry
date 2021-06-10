@@ -10,7 +10,7 @@
   "reloadTime" : 1,
   
   "range" : 450,
-  "targetAir" : false,
+  "targetAir" : true,
   "targetGround" : true,
   "rotateSpeed" : 1,
   "recoilAmount" : 0,
