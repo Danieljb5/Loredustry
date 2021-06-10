@@ -1,0 +1,34 @@
+{
+	"name": "Electromagnetic Star Restrainer",
+    "description": "Contains an artificial star.",
+    "type": "GenericSmelter",
+	"health" : 300,
+	"size": 3,
+	"flameColor": "6fbbd9",
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 150,
+	"itemCapacity": 60,
+    "liquidCapacity": 500,
+	"buildCostMultiplier" : 0.9,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputItem": {"item": "neutron-clump", "amount": 2},
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+                { "item": "unilaxium", "amount": 9 },
+		        { "item": "thorium", "amount": 8 }	
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 120},
+		{ "item": "surge-alloy", "amount": 120},
+        { "item": "thorium", "amount": 140}
+    ],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}
