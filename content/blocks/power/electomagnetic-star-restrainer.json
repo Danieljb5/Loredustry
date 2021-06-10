@@ -17,12 +17,12 @@
 	"outputItem": {"liquid": "superheated-cryofluid", "amount": 20},
 	"consumes": {
 		"power": 5,
-		"liquid": {
-            "liquid": "cryofluid", "amount": 20
-        },
         "items": [
             {"item": "supernova-module", "amount": 1}
-        ]
+        ],
+        "liquid": {
+            "liquid": "cryofluid", "amount": 20
+        }
 	},
 	"requirements": [
 		{ "item": "phase-fabric", "amount": 1200},
