@@ -26,10 +26,12 @@
         }
 	},
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 1200},
-		{ "item": "surge-alloy", "amount": 1200},
-        { "item": "thorium", "amount": 1400},
-        { "item": "neutronium-grains", "amount": 5200}
+		{ "item": "phase-fabric", "amount": 60},
+		{ "item": "surge-alloy", "amount": 140},
+        { "item": "thorium", "amount": 760},
+		{ "item": "titanium", "amount": 250},
+		{ "item": "silicon", "amount": 500},
+        { "item": "neutronium-grains", "amount": 56}
     ],
 	"category": "power",
 	"research": "steam-generator"
