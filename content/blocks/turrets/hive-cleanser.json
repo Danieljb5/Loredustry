@@ -1,0 +1,69 @@
+  
+{
+  "name" : "Hive cleanser",
+  "type" : "ItemTurret",
+  "size" : 4,
+  "health" : 1200,
+  
+  "maxAmmo" : 50,
+  "ammoPerShot" : 1,
+  "reloadTime" : 1,
+  
+  "range" : 450,
+  "targetAir" : false,
+  "targetGround" : true,
+  "rotateSpeed" : 1,
+  "recoilAmount" : 0,
+  "restitution" : 1,
+  "shootSound" : "flame",
+  "lifetime" : 50,
+  "innacuracy" : 0,
+  
+  "ammoTypes" : {
+    "coal":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 60,
+      "splashDamage": 60,
+      "splashDamageRadius": 10,
+      "height": 12,
+      "width": 7,
+      "speed": 15,
+      "lifetime": 250,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      
+    },
+    "pyratite":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 80,
+      "splashDamage": 80,
+      "splashDamageRadius": 20,
+      "height": 12,
+      "width": 7,
+      "speed": 15,
+      "lifetime": 300,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      
+    }
+  },
+  "requirements": [
+      { "item": "titanium", "amount": 220},
+      { "item": "ancient-alloy", "amount": 100},
+      { "item": "unilaxium", "amount": 150},
+      { "item": "originalium", "amount": 150}
+    
+    ],
+    "category": "turret",
+    "research" : "blight"
+}
