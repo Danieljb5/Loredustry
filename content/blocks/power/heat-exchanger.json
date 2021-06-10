@@ -14,16 +14,15 @@
 	"buildCostMultiplier" : 0.9,
 	"updateEffect": "shieldBreak",	
 	"craftEffect": "plasticExplosion",
-	"outputLiquid": {"liquid": "superheated-cryofluid", "amount": 3000},
+	"outputLiquid": {"liquid": "steam", "amount": 3000},
+    "outputItem": {"item": "titanium", "amount": 10},
 	"consumes": {
-		"power": 5,
-        "items": {
-            "items": [
-                {"item": "supernova-module", "amount": 1}
-            ]
+		"power": 1,
+        "liquid": {
+            "liquid": "superheated-cryofluid", "amount": 2
         },
         "liquid": {
-            "liquid": "cryofluid", "amount": 20
+            "liquid": "water", "amount": 2
         }
 	},
 	"requirements": [
