@@ -14,21 +14,22 @@
 	"buildCostMultiplier" : 0.9,
 	"updateEffect": "shieldBreak",	
 	"craftEffect": "plasticExplosion",
-	"outputItem": {"item": "neutron-clump", "amount": 2},
+	"outputItem": {"liquid": "superheated-cryofluid", "amount": 20},
 	"consumes": {
 		"power": 5,
-		"items": {
-			"items": [
-                { "item": "unilaxium", "amount": 9 },
-		        { "item": "thorium", "amount": 8 }	
-			]
-		}
+		"liquids": [
+            {"liquid": "cryofluid", "amount": 20}
+        ],
+        "items": [
+            {"item": "supernova-module", "amount": 1}
+        ]
 	},
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 120},
-		{ "item": "surge-alloy", "amount": 120},
-        { "item": "thorium", "amount": 140}
+		{ "item": "phase-fabric", "amount": 1200},
+		{ "item": "surge-alloy", "amount": 1200},
+        { "item": "thorium", "amount": 1400},
+        { "item": "neutronium-grains", "amount": 5200}
     ],
-	"category": "crafting",
-	"research": "alloy-smelter"
+	"category": "power",
+	"research": "impact-reactor"
 }
