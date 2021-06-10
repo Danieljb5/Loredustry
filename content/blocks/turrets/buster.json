@@ -60,7 +60,6 @@
     }
   },
   "requirements": [
-      { "item": "unlixaium", "amount": 100},
       { "item": "metaglass", "amount": 150},
       { "item": "originalium", "amount": 60},
       { "item": "titanium", "amount": 220}
