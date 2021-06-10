@@ -1,0 +1,70 @@
+  
+{
+  "name" : "Buster",
+  "type" : "ItemTurret",
+  "size" : 3,
+  "health" : 900,
+  
+  "maxAmmo" : 30,
+  "ammoPerShot" : 0.1,
+  "reloadTime" : 0.1,
+  
+  "range" : 200,
+  "targetAir" : true,
+  "targetGround" : true,
+  "rotateSpeed" : 10,
+  "recoilAmount" : 0,
+  "restitution" : 1,
+  "shootSound" : "flame",
+  "lifetime" : 6,
+  "innacuracy" : 1,
+  
+  "ammoTypes" : {
+    "coal":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 5,
+      "splashDamage": 5,
+      "splashDamageRadius": 15,
+      "height": 12,
+      "width": 7,
+      "speed": 130,
+      "lifetime": 250,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 1,
+      "homingRange": 120
+    },
+    "pyratite":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 8,
+      "splashDamage": 8,
+      "splashDamageRadius": 25,
+      "height": 12,
+      "width": 7,
+      "speed": 50,
+      "lifetime": 300,
+      "pierce": true,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 3,
+      "homingRange": 220
+    }
+  },
+  "requirements": [
+      { "item": "unlixaium", "amount": 100},
+      { "item": "metaglass", "amount": 150},
+      { "item": "originalium", "amount": 60},
+      { "item": "titanium", "amount": 220}
+    ],
+    "category": "turret",
+    "research" : "blight"
+}
