@@ -3,7 +3,7 @@
     "description": "Exchanges heat from superheated cryofluid into steam.",
     "type": "GenericSmelter",
 	"health" : 300,
-	"size": 15,
+	"size": 9,
 	"flameColor": "6fbbd9",
 	"hasPower": true,
 	"hasLiquids": true,
