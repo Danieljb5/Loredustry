@@ -6,7 +6,7 @@
 
 	"maxAmmo": 90,
 	"ammoPerShot" : 5,
-	"reloadTime": 500,
+	"reloadTime": 50,
 	"range": 800,
 
 	"targetAir" : true, 
@@ -18,7 +18,7 @@
 	"xRand" : 4,
 
 	"recoilAmount" : 8,
-	"restitution" : 2, 
+	"restitution" : 1, 
 
 	"shootSound" : "DeadeyeShoot",
 	"ammoUseEffect" : "casing3",
