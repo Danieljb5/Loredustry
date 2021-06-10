@@ -17,9 +17,9 @@
 	"outputItem": {"liquid": "superheated-cryofluid", "amount": 20},
 	"consumes": {
 		"power": 5,
-        "items": [
-            {"item": "supernova-module", "amount": 1}
-        ],
+        "item": {
+            "item": "supernova-module", "amount": 1
+        },
         "liquid": {
             "liquid": "cryofluid", "amount": 20
         }
