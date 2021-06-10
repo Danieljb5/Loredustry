@@ -9,10 +9,13 @@
     "plasmas": 4,
     "warmupSpeed": 0.01,
     "itemDuration": 60,
+    "hasPower": true,
     "hasLiquids": true,
     "hasItems": false,
+    "consumesPower": true,
     "outputsPower": true,
     "consumes": {
+        "power": 0,
         "liquid": {
             "liquid": "steam", "amount": 20
         }
