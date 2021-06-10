@@ -7,17 +7,17 @@
   
   "maxAmmo" : 30,
   "ammoPerShot" : 0.1,
-  "reloadTime" : 0.1,
+  "reloadTime" : 0.01,
   
   "range" : 200,
   "targetAir" : true,
   "targetGround" : true,
   "rotateSpeed" : 10,
   "recoilAmount" : 0,
-  "restitution" : 1,
+  "restitution" : 0.01,
   "shootSound" : "flame",
-  "lifetime" : 6,
-  "innacuracy" : 1,
+  "lifetime" : 10,
+  "innacuracy" : 0,
   
   "ammoTypes" : {
     "coal":{
