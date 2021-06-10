@@ -2,7 +2,7 @@
     "name": "Superheated Cryofluid",
     "color": "dd1133",
     "flammability": 0,
-    "temperature": 1,
+    "temperature": 1000,
     "heatCapacity": 0,
     "viscosity": 0.1,
     "explosiveness": 0.4,
