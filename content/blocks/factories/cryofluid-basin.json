@@ -28,9 +28,9 @@
 	},
 	"requirements": [
 		{ "item": "phase-fabric", "amount": 1200},
-		{ "item": "surge-alloy", "amount": 1200},
+		{ "item": "surge-alloy", "amount": 120},
         { "item": "thorium", "amount": 1400},
-        { "item": "neutronium-grains", "amount": 5200}
+        { "item": "neutronium-grains", "amount": 96}
     ],
 	"category": "crafting",
 	"research": "impact-reactor"

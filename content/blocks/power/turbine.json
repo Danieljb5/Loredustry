@@ -23,10 +23,10 @@
         }
     },
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 1200},
-		{ "item": "surge-alloy", "amount": 1200},
-        { "item": "thorium", "amount": 1400},
-        { "item": "neutronium-grains", "amount": 5200}
+		{ "item": "phase-fabric", "amount": 120},
+		{ "item": "surge-alloy", "amount": 120},
+        { "item": "thorium", "amount": 140},
+        { "item": "neutronium-grains", "amount": 15}
     ],
 	"category": "power",
 	"research": "impact-reactor"
