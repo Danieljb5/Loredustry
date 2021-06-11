@@ -39,10 +39,10 @@
         "hitEffect": "hitMeltdown",
         "damage": 950,
         "lifetime": 1000,
-        "length": 1000,
-        "width": 900,
+        "length": 100000,
+        "width": 90,
         "shootEffect": "lightningShoot",
-        "drawSize": 90
+        "drawSize": 100000
     },
     "requirements": [
         { "item": "ancient-alloy", "amount": 6000},
