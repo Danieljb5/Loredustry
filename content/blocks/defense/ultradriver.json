@@ -1,0 +1,31 @@
+{
+	"name": "ultradriver",
+	"type": "OverdriveProjector",
+	"health": 1000,
+	"size": 7,
+	"range": 150,
+	"reload": 15,
+	"speedBoost": 10,
+	"buildCostMultiplier" : 0.8,
+	"phaseRangeBoost": 60,
+	"speedBoostPhase": 5,
+	"consumes": {
+		"power": 30,
+		"items": {
+			"items": [ 
+				{ "amount": 1, "item": "unilaxium" },
+        { "amount": 1, "item": "originalium"},
+						],
+				"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "ancient-alloy", "amount": 900 },
+		{ "item": "silicon", "amount": 600 },
+		{ "item": "unilaxium", "amount": 600 },
+    { "item": "originalium", "amount": 700 }
+	],
+	"category": "effect",
+	"research": "mender"
+
+}
