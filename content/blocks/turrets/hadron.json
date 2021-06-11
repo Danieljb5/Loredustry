@@ -3,7 +3,7 @@
     "description": "A weapon used within a system to contain entities.",
     "type": "TractorBeamTurret",
     "timerTarget": 1,
-    "retargetTime": 0.5,
+    "retargetTime": 0.05,
     "damage": 15,
     "shootcone": 50,
     "shootLength": 450,
