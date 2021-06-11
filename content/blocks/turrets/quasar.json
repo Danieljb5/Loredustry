@@ -9,7 +9,7 @@
     "coolantMultiplier": 1,
     "chargeTime": 0,
     "health": 52000,
-    "reloadtime": 8000,
+    "reloadtime": 5,
     "range": 9999,
     "innacuracy": 0,
     "shots": 1,
