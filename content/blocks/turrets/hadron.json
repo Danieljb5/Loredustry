@@ -2,7 +2,7 @@
     "name": "Hadron",
     "description": "A weapon used within a system to contain entities.",
     "type": "TractorBeamTurret",
-    "timerTarget": 5,
+    "timerTarget": 1,
     "retargetTime": 0.5,
     "damage": 35,
     "shootcone": 50,
