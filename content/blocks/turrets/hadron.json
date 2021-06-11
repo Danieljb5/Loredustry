@@ -4,7 +4,7 @@
     "type": "TractorBeamTurret",
     "timerTarget": 1,
     "retargetTime": 0.5,
-    "damage": 35,
+    "damage": 15,
     "shootcone": 50,
     "shootLength": 450,
     "laserWidth": 3,
