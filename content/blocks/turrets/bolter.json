@@ -29,7 +29,7 @@
 
      "ammoTypes": {
          "copper": {
-              	"type" : "BombBulletType",
+              	"type" : "BasicBulletType",
 			"damage": 20,
 			"speed": 30,
 			"lifetime": 50,
@@ -42,7 +42,7 @@
 		
          },
          "scrap": {
-              "type" : "BombBulletType",
+              "type" : "BasicBulletType",
               "damage" : 20,
               "height" : 15,
               "width" : 7,
@@ -52,7 +52,7 @@
               "smokeEffect" : "shootSmallSmoke"
          },
          "titanium": {
-              "type" : "BombBulletType",
+              "type" : "BasicBulletType",
               "damage" : 50,
               "height" : 15,
               "width" : 7,
@@ -62,7 +62,7 @@
               "smokeEffect" : "shootSmallSmoke"
          },
          "plastanium": {
-              "type" : "BombBulletType",
+              "type" : "BasicBulletType",
               "status" : "burning",
               "damage" : 80,
               "height" : 15,
