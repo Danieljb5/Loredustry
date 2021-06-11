@@ -4,7 +4,7 @@
     "type": "LaserTurret",
     "size": 15,
     "firingMoveFract": 0.5,
-    "shootDuration": 10000,
+    "shootDuration": 100,
     "canOverdrive": false,
     "coolantMultiplier": 1,
     "chargeTime": 0,
@@ -26,8 +26,8 @@
     "shootType": {
         "type": "LaserBulletType",
         "buildingDamageMultiplier": 1,
-        "damage": 95,
-        "lifetime": 4000,
+        "damage": 950,
+        "lifetime": 100,
         "length": 1000,
         "width": 90,
         "shootEffect": "lightningShoot"
