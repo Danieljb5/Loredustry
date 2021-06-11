@@ -14,7 +14,7 @@
 
 	"rotateSpeed": 1,
 	"inaccuracy": 0,
-	"shots" : 1,
+	"shots" : 20,
 	"xRand" : 4,
 
 	"recoilAmount" : 8,
@@ -33,7 +33,7 @@
 			"lifetime": 50,
 			"height": 30,
 			"width" : 12,
-			"ammoMultiplier": 15,
+			"ammoMultiplier": 1,
       			"pierce": true,
 			"collidesTiles" : true,
 			"updateEffect" : "artilleryTrail",
@@ -48,7 +48,7 @@
 			"width" : 10,			
 			"speed": 35,
 			"lifetime": 45,
-			"ammoMultiplier": 20,
+			"ammoMultiplier": 1,
 			"pierce": true,	
       			"collidesTiles" : true,
 			"pierceEffect" : "hitLaser",
