@@ -29,9 +29,9 @@
         "damage": 950,
         "lifetime": 100,
         "length": 1000,
-        "width": 90,
+        "width": 900,
         "shootEffect": "lightningShoot",
-        "drawSize": 900
+        "drawSize": 90
     },
     "requirements": [
         { "item": "ancient-alloy", "amount": 6000},
