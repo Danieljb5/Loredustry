@@ -1,6 +1,6 @@
 {
 	"name" : "Flak cannon",
-   	"type": "ItemTurret",
+   	"type": "BurstTurret",
 	"size": 4,
 	"health": 500,
 
@@ -13,9 +13,10 @@
 	"targetGround" : false, 
 
 	"rotateSpeed": 1,
-	"inaccuracy": 0,
-	"shots" : 20,
-	"xRand" : 4,
+	"inaccuracy": 5,
+	"shots": 1,
+	"xRand" : 5,
+	"burstSpacing": 5,
 
 	"recoilAmount" : 8,
 	"restitution" : 1, 

@@ -23,7 +23,6 @@
     "shootSound": "laserblast",
     "powerUse": 1000,
     "hasPower": true,
-    "collidesTeam": true,
     "shootEffect": {
         "type": "ParticleEffect",
         "cone": 360,
