@@ -1,6 +1,6 @@
 {
     "name": "Pulsar",
-    "description": "A modification of the original supernova design, made as a large point defense system.",
+    "description": "A modification of the original supernova design, made as a large defense system against an ancient threat.",
     "type": "TractorBeamTurret",
     "timerTarget": 1,
     "retargetTime": 0.01,
@@ -9,7 +9,7 @@
     "shootLength": 999,
     "laserWidth": 1,
     "laserColor": "552255",
-    "force": 10000,
+    "force": 1000000,
     "scaledForce": 0,
     "beamEffect": "shieldBreak",
     "hitEffect": "plasticExplosion",
