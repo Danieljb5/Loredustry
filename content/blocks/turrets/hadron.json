@@ -22,7 +22,7 @@
     "targetGround": true,
     "rotateSpeed": 10,
     "shootSound": "laserblast",
-    "powerUse": 500,
+    "consumesPower": 500,
     "hasPower": true,
     "requirements": [
         { "item": "ancient-alloy", "amount": 500},
