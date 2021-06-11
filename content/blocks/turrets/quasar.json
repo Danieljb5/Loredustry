@@ -24,13 +24,14 @@
     "powerUse": 1000,
     "hasPower": true,
     "shootType": {
-        "type": "LaserBulletType",
-        "buildingDamageMultiplier": 1,
+        "type": "ContinuousLaserBulletType",
+        "hitEffect": "hitMeltdown",
         "damage": 950,
         "lifetime": 100,
         "length": 1000,
         "width": 90,
-        "shootEffect": "lightningShoot"
+        "shootEffect": "lightningShoot",
+        "drawSize": 900
     },
     "requirements": [
         { "item": "ancient-alloy", "amount": 6000},
