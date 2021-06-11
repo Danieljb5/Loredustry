@@ -1,5 +1,5 @@
 {
-    "name": "Pulsar",
+    "name": "Hadron",
     "description": "A weapon used within a system to contain entities.",
     "type": "TractorBeamTurret",
     "timerTarget": 5,
