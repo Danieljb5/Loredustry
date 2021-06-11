@@ -7,7 +7,7 @@
     "shootDuration": 100,
     "canOverdrive": false,
     "coolantMultiplier": 1,
-    "chargeTime": 0,
+    "chargeTime": 1,
     "health": 52000,
     "reloadtime": 5,
     "range": 9999,
