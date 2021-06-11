@@ -23,6 +23,17 @@
     "shootSound": "laserblast",
     "powerUse": 1000,
     "hasPower": true,
+    "shootEffect": {
+        "type": "ParticleEffect",
+        "cone": 360,
+        "sizeFrom": 150,
+        "sizeTo": 0,
+        "particles": 50,
+        "colorFrom": "e28654",
+        "colorTo": "ffcd66",
+        "length": 100,
+        "lifetime": 450
+    },
     "shootType": {
         "type": "ContinuousLaserBulletType",
         "hitEffect": "hitMeltdown",
