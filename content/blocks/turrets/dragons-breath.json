@@ -1,19 +1,20 @@
+  
 { 
-	"name" : "Mjolnir",
+	"name" : "Dragons breath",
        "type" : "PowerTurret",
        "size" : 3,
        "health" : 500,
-       "reloadTime" : 5,
-       "range" : 300,
+       "reloadTime" : 2.5,
+       "range" : 75,
        "innacuracy" : 0,
-       "shots" : 3,
+       "shots" : 5,
        
        "targetAir": false,
        "targetGround": true,
-       "shootcone": 3,
-       "spread": 4,
+       "shootcone": 5,
+       "spread": 6,
        
-       "recoilAmount": 2,
+       "recoilAmount": 1,
        "restitution": 0.05,
        "rotateSpeed": 10,
        
@@ -23,23 +24,24 @@
         "hasPower": true,
         "shootType" : {
 		          "type" : "BasicBulletType",
-		          "speed": 6.0,
+              "status": "burning",
+		          "speed": 5,
 		          "lifetime" : 50,
-		          "damage": 90,
-		          "height" : 25,
-		          "width" : 10,
+		          "damage": 50,
+		          "height" : 9,
+		          "width" : 5,
 		          "hitEffect": "hitLaser",
 		          "despawnEffect" : "hitLaser",
 		         
-	          	"frontColor": "bbdefb",
-		          "backColor": "90caf9"
+	          	"frontColor": "fc7703",
+		          "backColor": "e34709"
            },
 
 	"requirements": [
-		{ "item": "copper", "amount": 300},
-		{ "item": "lead", "amount": 300},
+		{ "item": "unilaxium", "amount": 150},
+		{ "item": "originalium", "amount": 150},
 		{ "item": "titanium", "amount": 250},
-		{ "item": "silicon", "amount": 250},
+		{ "item": "metaglass", "amount": 200},
 		{ "item": "plastanium", "amount": 150}
 	],
 	"category": "turret",

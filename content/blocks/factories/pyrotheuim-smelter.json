@@ -1,0 +1,33 @@
+{
+  "name": "Pyrotheium smelter",
+  "description": "A smelter used to make one of the most explosive and flammable liquids in the known universe",
+  "type": "GenericSmelter",
+  "health": 600,
+  "size": 4,
+  "flameColor": "d7ff5e",
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 800,
+  "itemCapacity": 500,
+  "buildCostMultiplier": 0.5,
+  "updateEffect": "flakExplosion",
+  "craftEffect": "blastExplosion",
+  "outputItem": {"item": "pyrotheium", "amount": 20},
+  "consumes": {
+    "power": 50,
+    "items": {
+      "items": [
+        {"item": "pyratite", "amount": 100},
+        {"item": "slag", "amount": 150}
+        ]}},
+  "requirements": [
+      {"item": "plastinium", "amount": 50},
+      {"item": "metaglass", "amount": 180},
+      {"item": "titanium", "amount": 100},
+      {"item": "thorium", "amount": 200},
+      {"item": "silicon", "amount": 180}
+    ],
+  "category": "crafting",
+  "research": "alloy-smelter"
+}

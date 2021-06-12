@@ -1,0 +1,18 @@
+  
+{
+    "name": "Pyrotheium",
+    "description": "An extremely flammable and explosive material.",
+    "type": "material",
+    "cost": 2,
+    "color": "#ffb52b",
+    "research": {
+        "parent": "pyratite",
+        "requirements":[
+            { "item": "pyratite", "amount": 50 },
+            { "item": "slag", "amount": 100 }
+        ]
+    },
+    "hardness": 15,
+    "explosiveness": 999.99,
+    "flammability": 999.99
+}
