@@ -24,7 +24,7 @@
         {"item": "pyratite", "amount": 100}
         ]}},
   "requirements": [
-      {"item": "plastinium", "amount": 50},
+      {"item": "plastanium", "amount": 50},
       {"item": "metaglass", "amount": 180},
       {"item": "titanium", "amount": 100},
       {"item": "thorium", "amount": 200},
