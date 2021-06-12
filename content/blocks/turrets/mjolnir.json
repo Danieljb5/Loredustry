@@ -2,7 +2,7 @@
 	"name" : "Mjolnir",
        "type" : "PowerTurret",
        "size" : 3,
-       "health" : 200,
+       "health" : 500,
        "reloadTime" : 5,
        "range" : 300,
        "innacuracy" : 0,
@@ -25,7 +25,7 @@
 		          "type" : "BasicBulletType",
 		          "speed": 6.0,
 		          "lifetime" : 50,
-		          "damage": 85,
+		          "damage": 90,
 		          "height" : 25,
 		          "width" : 10,
 		          "hitEffect": "hitLaser",
@@ -36,11 +36,11 @@
            },
 
 	"requirements": [
-		{ "item": "copper", "amount": 100},
-		{ "item": "lead", "amount": 60},
-		{ "item": "titanium", "amount": 50},
-		{ "item": "silicon", "amount": 50},
-		{ "item": "plastanium", "amount": 50}
+		{ "item": "copper", "amount": 300},
+		{ "item": "lead", "amount": 300},
+		{ "item": "titanium", "amount": 250},
+		{ "item": "silicon", "amount": 250},
+		{ "item": "plastanium", "amount": 150}
 	],
 	"category": "turret",
 	"research": "lancer"
