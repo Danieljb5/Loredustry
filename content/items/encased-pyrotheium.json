@@ -7,11 +7,10 @@
     "research": {
         "parent": "pyrotheium",
         "requirements":[
-            { "item": "pyrotheium", "amount": 100 },
             { "item": "ancient-alloy", "amount": 150 },
             { "item": "titanium", "amount": 200}
         ]
     },
     "hardness": 15,
-    "explosiveness": 999.99,
+    "explosiveness": 999.99
 }
