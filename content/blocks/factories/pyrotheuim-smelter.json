@@ -24,11 +24,11 @@
         {"item": "pyratite", "amount": 100}
         ]}},
   "requirements": [
-      {"item": "plastanium", "amount": 50},
-      {"item": "metaglass", "amount": 180},
-      {"item": "titanium", "amount": 100},
-      {"item": "thorium", "amount": 200},
-      {"item": "silicon", "amount": 180}
+      {"item": "plastanium", "amount": 25},
+      {"item": "metaglass", "amount": 70},
+      {"item": "titanium", "amount": 35},
+      {"item": "thorium", "amount": 60},
+      {"item": "silicon", "amount": 70}
     ],
   "category": "crafting",
   "research": "alloy-smelter"
