@@ -5,7 +5,7 @@
        "size" : 3,
        "health" : 500,
        "reloadTime" : 2.5,
-       "range" : 250,
+       "range" : 100,
        "innacuracy" : 0,
        "shots" : 5,
        
@@ -26,7 +26,7 @@
 		          "type" : "BasicBulletType",
               "status": "burning",
 		          "speed": 5,
-		          "lifetime" : 25,
+		          "lifetime" : 30,
 		          "damage": 50,
 		          "height" : 9,
 		          "width" : 5,
