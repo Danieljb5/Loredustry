@@ -1,5 +1,5 @@
 {
-  "name": "Pyrotheium smelter",
+  "name": "Pyrotheum smelter",
   "description": "A smelter used to make one of the most explosive and flammable liquids in the known universe",
   "type": "GenericSmelter",
   "health": 600,
@@ -13,7 +13,7 @@
   "buildCostMultiplier": 0.5,
   "updateEffect": "flakExplosion",
   "craftEffect": "blastExplosion",
-  "outputLiquid": {"item": "pyrotheuim", "amount": 20},
+  "outputLiquid": {"item": "pyrotheum", "amount": 20},
   "consumes": {
     "power": 50,
     "liquid": {
