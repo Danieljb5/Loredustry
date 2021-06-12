@@ -1,0 +1,49 @@
+  
+{ 
+	"name" : "Dragons breath",
+       "type" : "PowerTurret",
+       "size" : 3,
+       "health" : 500,
+       "reloadTime" : 2.5,
+       "range" : 250,
+       "innacuracy" : 0,
+       "shots" : 5,
+       
+       "targetAir": false,
+       "targetGround": true,
+       "shootcone": 5,
+       "spread": 6,
+       
+       "recoilAmount": 1,
+       "restitution": 0.05,
+       "rotateSpeed": 10,
+       
+       "shootSound": "lasershoot",
+       
+    "powerUse": 25,
+        "hasPower": true,
+        "shootType" : {
+		          "type" : "BasicBulletType",
+              "status": "burning",
+		          "speed": 5,
+		          "lifetime" : 25,
+		          "damage": 50,
+		          "height" : 9,
+		          "width" : 5,
+		          "hitEffect": "hitLaser",
+		          "despawnEffect" : "hitLaser",
+		         
+	          	"frontColor": "fc7703",
+		          "backColor": "e34709"
+           },
+
+	"requirements": [
+		{ "item": "unilaxium", "amount": 150},
+		{ "item": "originalium", "amount": 150},
+		{ "item": "titanium", "amount": 250},
+		{ "item": "metaglass", "amount": 200},
+		{ "item": "plastanium", "amount": 150}
+	],
+	"category": "turret",
+	"research": "lancer"
+}
