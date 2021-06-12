@@ -1,0 +1,16 @@
+{
+    "name": "Encased pyrotheium",
+    "description": "Pyrotheium encased in ancient alloy used exclusively as ammunition.",
+    "type": "material",
+    "cost": 2,
+    "color": "747f82",
+    "research": {
+        "parent": "pyrotheium",
+        "requirements":[
+            { "item": "pyrotheium", "amount": 100 },
+            { "item": "ancient-alloy", "amount": 150 }
+        ]
+    },
+    "hardness": 15,
+    "explosiveness": 999.99,
+}
