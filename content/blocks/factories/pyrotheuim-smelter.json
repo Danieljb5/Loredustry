@@ -16,10 +16,12 @@
   "outputLiquid": {"item": "pyrotheium", "amount": 20},
   "consumes": {
     "power": 50,
+    "liquid": {
+      "liquid": "slag", "amount": 150
+    },
     "items": {
       "items": [
-        {"item": "pyratite", "amount": 100},
-        {"item": "slag", "amount": 150}
+        {"item": "pyratite", "amount": 100}
         ]}},
   "requirements": [
       {"item": "plastinium", "amount": 50},

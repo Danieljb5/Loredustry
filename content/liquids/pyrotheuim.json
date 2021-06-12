@@ -8,8 +8,7 @@
     "research": {
         "parent": "pyratite",
         "requirements":[
-            { "item": "pyratite", "amount": 50 },
-            { "item": "slag", "amount": 100 }
+            { "item": "pyratite", "amount": 50 }
         ]
     },
     "hardness": 15,
