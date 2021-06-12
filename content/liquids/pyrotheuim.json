@@ -12,6 +12,8 @@
         ]
     },
     "hardness": 15,
+    "temperature": 10000000000000,
+    "viscosity": 0.3,
     "explosiveness": 999.99,
     "flammability": 999.99
 }
