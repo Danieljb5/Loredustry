@@ -17,6 +17,7 @@
 	"shots": 1,
 	"xRand" : 5,
 	"burstSpacing": 5,
+	"shots": 10,
 
 	"recoilAmount" : 8,
 	"restitution" : 1, 
