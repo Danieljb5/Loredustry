@@ -58,7 +58,7 @@
     }
   },
   "requirements": [
-      { "item": "unliaxium", "amount": 80},
+      { "item": "unilaxium", "amount": 80},
       { "item": "originalium", "amount": 60},
       { "item": "titanium", "amount": 220},
       { "item": "ancient-alloy", "amount": 30}
