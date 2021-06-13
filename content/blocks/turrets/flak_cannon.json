@@ -1,6 +1,6 @@
 {
 	"name" : "Flak cannon",
-   	"type": "BurstTurret",
+   	"type": "ItemTurret",
 	"size": 4,
 	"health": 500,
 
