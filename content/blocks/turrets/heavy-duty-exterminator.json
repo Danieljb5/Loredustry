@@ -20,7 +20,7 @@
   "innacuracy" : 0,
   
   "ammoTypes" : {
-    "pyrotheum":{
+    "encased-pyrotheum":{
       "type": "BasicBulletType",
       "status": "burning",
       "hitEffect": "fire",
