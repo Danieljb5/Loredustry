@@ -13,11 +13,11 @@
   "buildCostMultiplier": 0.5,
   "updateEffect": "flakExplosion",
   "craftEffect": "blastExplosion",
-  "outputLiquid": {"item": "pyrotheum", "amount": 20},
+  "outputLiquid": {"liquid": "pyrotheum", "amount": 20},
   "consumes": {
     "power": 50,
     "liquid": {
-      "liquid": "slag", "amount": 5
+      "liquid": "slag", "amount": 0.5
     },
     "items": {
       "items": [
