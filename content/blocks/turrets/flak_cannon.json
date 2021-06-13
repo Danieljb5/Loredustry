@@ -6,15 +6,14 @@
 
 	"maxAmmo": 90,
 	"ammoPerShot" : 5,
-	"reloadTime": 50,
+	"reloadTime": 500,
 	"range": 800,
 
 	"targetAir" : true, 
 	"targetGround" : false, 
 
 	"rotateSpeed": 1,
-	"inaccuracy": 5,
-	"shots": 1,
+	"inaccuracy": 15,
 	"xRand" : 5,
 	"burstSpacing": 5,
 	"shots": 10,
@@ -31,10 +30,10 @@
 		"titanium": {
 			"type" : "FlakBulletType",
 			"damage": 50,
-			"speed": 30,
+			"speed": 15,
 			"lifetime": 50,
-			"height": 30,
-			"width" : 12,
+			"height": 3,
+			"width" : 1,
 			"ammoMultiplier": 1,
       			"pierce": true,
 			"collidesTiles" : true,
@@ -42,13 +41,24 @@
 			"hitEffect" : "explosion",
 			"smokeEffect" : "shootBig2",
 			"pierceDamageFactor" : 0.8
+			"fragBullets": 5,
+        		"fragVelocityMin": 4.0,
+        		"fragVelocityMax": 8.0,
+        		"fragBullet": {
+            			"type": "BombBulletType",
+            			"lifetime": 15,
+			   	"damage": 4,
+			    	"collides": true,
+			    	"collidesTiles": true,
+			    	"collidesAir": true
+        		},
 		},
 		"surge-alloy": { 
 			"type" : "FlakBulletType",
 			"damage": 100,
-			"height": 30,
-			"width" : 10,			
-			"speed": 35,
+			"height": 3,
+			"width" : 1,			
+			"speed": 20,
 			"lifetime": 45,
 			"ammoMultiplier": 1,
 			"pierce": true,	
@@ -58,6 +68,17 @@
 			"hitEffect" : "explosion",
 			"smokeEffect" : "shootBig2",
 			"pierceDamageFactor" : 0.5
+			"fragBullets": 7,
+        		"fragVelocityMin": 4.0,
+        		"fragVelocityMax": 8.0,
+        		"fragBullet": {
+            			"type": "BombBulletType",
+            			"lifetime": 15,
+			   	"damage": 5,
+			    	"collides": true,
+			    	"collidesTiles": true,
+			    	"collidesAir": true
+        		},
 			}	
 	},
 	
