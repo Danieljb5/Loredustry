@@ -15,8 +15,8 @@
 	"rotateSpeed": 1,
 	"inaccuracy": 15,
 	"xRand" : 5,
-	"burstSpacing": 1,
-	"shots": 15,
+	"burstSpacing": 2,
+	"shots": 30,
 
 	"recoilAmount" : 8,
 	"restitution" : 1, 
