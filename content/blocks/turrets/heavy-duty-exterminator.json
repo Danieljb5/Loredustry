@@ -58,9 +58,10 @@
     }
   },
   "requirements": [
-      { "item": "metaglass", "amount": 150},
+      { "item": "unliaxium", "amount": 80},
       { "item": "originalium", "amount": 60},
-      { "item": "titanium", "amount": 220}
+      { "item": "titanium", "amount": 220},
+      { "item": "ancient-alloy", "amount": 30}
     ],
     "category": "turret",
     "research" : "blight"
