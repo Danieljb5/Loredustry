@@ -1,7 +1,7 @@
 {
     "name": "Solar Flare",
     "description": "A giant flamethrower modified to withstand the use of pyrotheum, unlike the enemy.",
-    "type": "PowerTurret",
+    "type": "LiquidTurret",
     "size": 15,
     "health": 52000,
     "reloadtime": 8000,
@@ -17,6 +17,7 @@
     "rotateSpeed": 0.5,
     "shootSound": "laser",
     "hasLiquids": true,
+    "activeSound": "fire",
     "powerUse": 1000,
     "hasPower": true,
     "ammoTypes": {
