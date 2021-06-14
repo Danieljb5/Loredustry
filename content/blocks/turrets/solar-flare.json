@@ -13,7 +13,7 @@
     "targetGround": true,
     "shootcone": 1,
     "spread": 0,
-    "maxAmmo": 1,
+    "maxAmmo": 0.25,
     "ammoPerShot": 32,
     "recoilAmount": 25,
     "resitiution": 50,
