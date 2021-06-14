@@ -34,7 +34,7 @@
           "height": 12,
           "width": 7,
           "speed": 5,
-          "pierce": true,
+          "pierce": false,
           "ammoMultiplier": 5,
           "fragBullets": 150,
           "fragVelocityMin": 1,
@@ -61,7 +61,10 @@
               "hitSound": "flame",
               "hitEffect": "fire",
               "despawnEffect": "fire",
-              "collides": false,
+              "collides": true,
+              "collidesGround": true,
+              "collidesAir": true,
+              "pierce": true
             }
           }
         }
