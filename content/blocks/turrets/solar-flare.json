@@ -27,7 +27,6 @@
         "pyrotheum": {
           "type": "BasicBulletType",
           "ammoMultiplier": 0.1,
-          "status": "burning",
           "shootEffect": "massiveExplosion",
           "hitEffect": "fire",
           "despawnEffect": "none",
