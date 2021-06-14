@@ -7,7 +7,7 @@
   
   "maxAmmo" : 50,
   "ammoPerShot" : 10,
-  "reloadTime" : 1,
+  "reloadTime" : 2,
   
   "range" : 800,
   "targetAir" : true,
@@ -24,14 +24,14 @@
       "type": "BasicBulletType",
       "status": "burning",
       "hitEffect": "fire",
-      "damage": 50,
-      "splashDamage": 50,
+      "damage": 25,
+      "splashDamage": 25,
       "splashDamageRadius": 40,
       "height": 12,
       "width": 7,
-      "speed": 100,
+      "speed": 75,
       "lifetime": 150,
-      "pierce": true,
+      "pierce": false,
       "ammoMultiplier": 3,
       "reloadMultiplier": 1,
       "smokeEffect": "shootSmallSmoke",
@@ -64,5 +64,5 @@
       { "item": "ancient-alloy", "amount": 30}
     ],
     "category": "turret",
-    "research" : "blight"
+    "research" : "buster"
 }
