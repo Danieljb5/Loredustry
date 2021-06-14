@@ -7,7 +7,7 @@
     "reloadtime": 300,
     "range": 1040,
     "innacuracy": 0,
-    "burstSpacing": 1,
+    "burstSpacing": 25,
     "shots": 5,
     "targetAir": true,
     "targetGround": true,
