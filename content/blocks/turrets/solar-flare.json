@@ -13,7 +13,7 @@
     "targetGround": true,
     "shootcone": 1,
     "spread": 0,
-    "maxAmmo": 5,
+    "maxAmmo": 1,
     "ammoPerShot": 8,
     "recoilAmount": 25,
     "resitiution": 50,
@@ -26,6 +26,7 @@
     "ammoTypes": {
         "pyrotheum": {
           "type": "BasicBulletType",
+          "ammoMultiplier": 1,
           "status": "burning",
           "shootEffect": "massiveExplosion",
           "hitEffect": "fire",
