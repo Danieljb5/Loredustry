@@ -1,0 +1,37 @@
+{
+	"name": "Casing factory",
+  "description": "A factory used to create casings to store pyrotheum to be used as ammunition",
+  "type": "GenericSmelter",
+	"health" : 450,
+	"size": 3,
+	"flameColor": "f7dcc1",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 20,
+	"itemCapacity": 150,
+	"buildCostMultiplier" : 0.5,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputItem": {"item": "pyrotheum-casing", "amount": 1},
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{ "item": "ancient-alloy", "amount": 1},
+				{ "item": "unilaxium", "amount": 5},
+        { "item": "originalium", "amount": 5}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "unilaxium", "amount": 90 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "originalium", "amount": 60 },
+    { "item": "ancient-alloy", "amount": 60 }
+    ],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}
