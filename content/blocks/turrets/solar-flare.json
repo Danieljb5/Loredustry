@@ -4,7 +4,7 @@
     "type": "LiquidTurret",
     "size": 15,
     "health": 52000,
-    "reloadtime": 900,
+    "reloadtime": 24543,
     "range": 1040,
     "innacuracy": 0,
     "burstSpacing": 1,
