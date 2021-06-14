@@ -28,7 +28,7 @@
           "hitEffect": "fire",
           "despawnEffect": "fire",
           "damage": 50,
-          "lifetime": 15,
+          "lifetime": 60,
           "splashDamage": 50,
           "splashDamageRadius": 50,
           "height": 12,
@@ -36,7 +36,7 @@
           "speed": 5,
           "pierce": true,
           "ammoMultiplier": 5,
-          "fragBullets": 50,
+          "fragBullets": 250,
           "fragVelocityMin": 1,
           "fragVelocityMax": 100,
           "fragBullet": {
@@ -49,7 +49,7 @@
             "hitEffect": "fire",
             "despawnEffect": "fire",
             "collides": false,
-            "fragBullets": 5,
+            "fragBullets": 15,
             "fragVelocityMin": 1,
             "fragVelocityMax": 10,
             "fragBullet": {
