@@ -17,7 +17,7 @@
 	"consumes": {
 		"power": 1,
 		 "liquid": {
-      "liquid": "pyrotheum", "amount": 1
+      "liquid": "pyrotheum", "amount": 0.1
     },
     "items": {
       "items": [
