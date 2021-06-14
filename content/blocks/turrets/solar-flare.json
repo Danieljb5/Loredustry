@@ -11,7 +11,7 @@
     "shots": 5,
     "targetAir": true,
     "targetGround": true,
-    "shootcone": 15,
+    "shootcone": 400,
     "spread": 0,
     "maxAmmo": 0.1,
     "recoilAmount": 25,
