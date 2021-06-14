@@ -14,7 +14,7 @@
     "shootcone": 1,
     "spread": 0,
     "maxAmmo": 1,
-    "ammoPerShot": 8,
+    "ammoPerShot": 32,
     "recoilAmount": 25,
     "resitiution": 50,
     "rotateSpeed": 0.5,
