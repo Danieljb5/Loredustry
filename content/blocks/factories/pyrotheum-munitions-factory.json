@@ -1,1 +1,36 @@
-
+{
+	"name": "Pyrotheum Munitions factory",
+  "description": "A factory able to inject pure pyrotheum into specifically designed shells, outputs pyrotheum encased in some of densest materials in the universe, creating one of the most deadly ammunitions ever",
+  "type": "GenericSmelter",
+	"health" : 500,
+	"size": 5,
+	"flameColor": "e6e3e3",
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 25,
+	"itemCapacity": 150,
+	"buildCostMultiplier" : 0.5,
+	"updateEffect": "shieldBreak",	
+	"craftEffect": "plasticExplosion",
+	"outputItem": {"item": "encased-pyrotheum", "amount": 1},
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{ "item": "pyrotheum-casing", "amount": 1},
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "unilaxium", "amount": 90 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "originalium", "amount": 60 },
+    { "item": "ancient-alloy", "amount": 60 }
+    ],
+	"category": "crafting",
+	"research": "alloy-smelter"
+}
