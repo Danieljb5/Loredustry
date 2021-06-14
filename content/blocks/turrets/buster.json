@@ -1,6 +1,7 @@
   
 {
   "name" : "Buster",
+  "description": "A compacted version of the solar flare, only costing 2 supernova modules.",
   "type" : "ItemTurret",
   "size" : 3,
   "health" : 900,
