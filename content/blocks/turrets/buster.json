@@ -57,7 +57,26 @@
       "smokeEffect": "shootSmallSmoke",
       "homingPower": 3,
       "homingRange": 220
-    }
+    },
+     "encased-pyrotheum":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 45,
+      "splashDamage": 30,
+      "splashDamageRadius": 25,
+      "height": 12,
+      "width": 7,
+      "speed": 500,
+      "lifetime": 150,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 5,
+      "homingRange": 300
+     }
   },
   "requirements": [
       { "item": "metaglass", "amount": 150},
