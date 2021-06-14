@@ -40,7 +40,7 @@
 			"updateEffect" : "artilleryTrail",
 			"hitEffect" : "explosion",
 			"smokeEffect" : "shootBig2",
-			"pierceDamageFactor" : 0.8
+			"pierceDamageFactor" : 0.8,
 			"fragBullets": 5,
         		"fragVelocityMin": 4.0,
         		"fragVelocityMax": 8.0,
@@ -67,7 +67,7 @@
 			"updateEffect" : "artilleryTrail",
 			"hitEffect" : "explosion",
 			"smokeEffect" : "shootBig2",
-			"pierceDamageFactor" : 0.5
+			"pierceDamageFactor" : 0.5,
 			"fragBullets": 7,
         		"fragVelocityMin": 4.0,
         		"fragVelocityMax": 8.0,
