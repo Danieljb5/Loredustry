@@ -16,21 +16,24 @@
 	"outputItem": {"item": "encased-pyrotheum", "amount": 1},
 	"consumes": {
 		"power": 1,
-		"items": {
-			"items": [
-				{ "item": "pyrotheum-casing", "amount": 1},
+		 "liquid": {
+      "liquid": "pyrotheum", "amount": 1
+    },
+    "items": {
+      "items": [
+        {"item": "pyrotheum-casing", "amount": 1}
 				
-			]
+                       	]
 		}
 	},
 	"requirements": [
 		{ "item": "unilaxium", "amount": 90 },
-		{ "item": "thorium", "amount": 80 },
-		{ "item": "metaglass", "amount": 80 },
+		{ "item": "plastanium", "amount": 60 },
+		{ "item": "phase-fabric", "amount": 60 },
 		{ "item": "silicon", "amount": 90 },
 		{ "item": "originalium", "amount": 60 },
-    { "item": "ancient-alloy", "amount": 60 }
+                { "item": "ancient-alloy", "amount": 60 }
     ],
 	"category": "crafting",
-	"research": "alloy-smelter"
+	"research": "pyrotheum-smelter"
 }
