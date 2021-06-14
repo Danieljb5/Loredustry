@@ -36,7 +36,7 @@
           "speed": 5,
           "pierce": true,
           "ammoMultiplier": 5,
-          "fragBullets": 250,
+          "fragBullets": 150,
           "fragVelocityMin": 1,
           "fragVelocityMax": 100,
           "fragBullet": {
@@ -49,7 +49,7 @@
             "hitEffect": "fire",
             "despawnEffect": "fire",
             "collides": false,
-            "fragBullets": 15,
+            "fragBullets": 5,
             "fragVelocityMin": 1,
             "fragVelocityMax": 10,
             "fragBullet": {
