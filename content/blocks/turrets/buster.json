@@ -79,9 +79,10 @@
      }
   },
   "requirements": [
-      { "item": "metaglass", "amount": 150},
+      { "item": "ancient-alloy", "amount": 150},
       { "item": "originalium", "amount": 60},
-      { "item": "titanium", "amount": 220}
+      { "item": "titanium", "amount": 220},
+      { "item": "supernova-module", "amount": 2}
     ],
     "category": "turret",
     "research" : "blight"
