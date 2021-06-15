@@ -5,7 +5,7 @@
    "cost": 5,
    "color": "6c9e88",
    "research": {
-      "parent": "ancient-tablet",
+      "parent": "precursors-tablet",
       "requirements":[
          { "item": "ancient-alloy", "amount": 10 }
       ]
