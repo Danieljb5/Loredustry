@@ -8,6 +8,7 @@
        "range" : 75,
        "innacuracy" : 0,
        "shots" : 5,
+       "outlineIcon": true,
        
        "targetAir": false,
        "targetGround": true,
