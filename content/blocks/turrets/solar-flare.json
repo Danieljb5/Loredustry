@@ -1,6 +1,6 @@
 {
     "name": "Solar Flare",
-    "description": "A giant flamethrower modified to withstand the use of pyrotheum, unlike the enemy.\nSide note: you might experience major performance issues using this gun.",
+    "description": "A giant flamethrower modified to withstand the use of pyrotheum, unlike the enemy.\n[red]Side note: you might experience major performance issues using this gun.",
     "type": "LiquidTurret",
     "size": 15,
     "health": 52000,
