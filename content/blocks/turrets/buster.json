@@ -1,6 +1,7 @@
   
 {
   "name" : "Buster",
+  "description": "A compacted version of the solar flare, only costing 2 supernova modules.",
   "type" : "ItemTurret",
   "size" : 3,
   "health" : 900,
@@ -57,12 +58,32 @@
       "smokeEffect": "shootSmallSmoke",
       "homingPower": 3,
       "homingRange": 220
-    }
+    },
+     "encased-pyrotheum":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "fire",
+      "damage": 45,
+      "splashDamage": 30,
+      "splashDamageRadius": 25,
+      "height": 12,
+      "width": 7,
+      "speed": 500,
+      "lifetime": 150,
+      "pierce": false,
+      "ammoMultiplier": 25,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 5,
+      "homingRange": 300
+     }
   },
   "requirements": [
-      { "item": "metaglass", "amount": 150},
+      { "item": "ancient-alloy", "amount": 150},
       { "item": "originalium", "amount": 60},
-      { "item": "titanium", "amount": 220}
+      { "item": "titanium", "amount": 220},
+      { "item": "supernova-module", "amount": 2}
     ],
     "category": "turret",
     "research" : "blight"

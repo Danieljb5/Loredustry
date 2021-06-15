@@ -1,0 +1,16 @@
+{
+	"name": "Pyrotheum Casing",
+	"description": "A casing made from some of the densest and strongest materials known to man, used to contain pure, undiluted Pyrotheum.",
+	"type": "material",
+	"cost": 2.5,
+	"color": "7575C8",
+	"research": {
+		"parent" : "pyrotheum",
+		"requirements":[
+			{ "item": "ancient-alloy", "amount": 100 },
+			{ "item": "unilaxium", "amount": 500 },
+      { "item": "originalium", "amount": 500 },
+		]
+	},
+	"hardness": 15
+}

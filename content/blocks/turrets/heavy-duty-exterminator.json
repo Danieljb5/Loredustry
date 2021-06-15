@@ -1,0 +1,70 @@
+{
+  "name" : "Heavy duty exterminator",
+  "description": "A weapon developed and used in the early stages of the war of sporio - it is extremely effective against spore enemies.",
+  "type" : "ItemTurret",
+  "size" : 5,
+  "health" : 1500,
+  
+  "maxAmmo" : 50,
+  "ammoPerShot" : 10,
+  "reloadTime" : 2,
+  
+  "range" : 800,
+  "targetAir" : true,
+  "targetGround" : true,
+  "rotateSpeed" : 5,
+  "recoilAmount" : 2,
+  "restitution" : 0.5,
+  "shootSound" : "flame",
+  "lifetime" : 50,
+  "innacuracy" : 0,
+  
+  "ammoTypes" : {
+    "encased-pyrotheum":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "hitEffect": "fire",
+      "damage": 25,
+      "splashDamage": 25,
+      "splashDamageRadius": 40,
+      "height": 12,
+      "width": 7,
+      "speed": 75,
+      "lifetime": 150,
+      "pierce": false,
+      "ammoMultiplier": 3,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 5,
+      "homingRange": 500
+    },
+    "pyratite":{
+      "type": "BasicBulletType",
+      "status": "burning",
+      "hitEffect": "fire",
+      "damage": 30,
+      "splashDamage": 20,
+      "splashDamageRadius": 30,
+      "height": 12,
+      "width": 7,
+      "speed": 125,
+      "lifetime": 100,
+      "pierce": true,
+      "ammoMultiplier": 5,
+      "reloadMultiplier": 1,
+      "smokeEffect": "shootSmallSmoke",
+      "homingPower": 2,
+      "homingRange": 180
+    }
+  },
+  "requirements": [
+      { "item": "unilaxium", "amount": 80},
+      { "item": "originalium", "amount": 60},
+      { "item": "titanium", "amount": 220},
+      { "item": "ancient-alloy", "amount": 30},
+      { "item": "supernova-module", "amount": 5}
+    
+    ],
+    "category": "turret",
+    "research" : "buster"
+}
