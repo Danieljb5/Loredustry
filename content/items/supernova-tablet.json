@@ -1,0 +1,14 @@
+{
+   "type": "material",
+   "name": "Supernova Tablet",
+   "description": "A tablet depicting tests of a devastating weapon created by the crux to quicken the end to the war. It has the caption 'Incomplete designs'.",
+   "cost": 5,
+   "color": "6c9e88",
+   "research": {
+      "parent": "crux-tablet",
+      "requirements":[
+         {"item": "supernova-module", "amount": 1}
+      ]
+   },
+   "hardness": 10
+}

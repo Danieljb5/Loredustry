@@ -1,12 +1,14 @@
 {
    "type": "material",
    "name": "Precursors Tablet",
-   "description": "A tablet depicting an ancient race living in an advanced civialisation. It has the caption 'peace before war'",
+   "description": "A tablet depicting an ancient race living in an advanced civialisation. It has the caption 'Peace before war'.",
    "cost": 5,
    "color": "6c9e88",
    "research": {
       "parent": "core-shard",
-      "alwaysUnlocked": true
+      "requirements":[
+         {"item": "surge-alloy", "amount": 1}
+      ]
    },
    "hardness": 10
 }
